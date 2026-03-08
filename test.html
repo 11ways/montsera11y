@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Montsera11y — Font Test</title>
+<style>
+  @font-face {
+    font-family: 'Montsera11y';
+    src: url('output/woff2/Montsera11y-Light.woff2') format('woff2');
+    font-weight: 300;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Montsera11y';
+    src: url('output/woff2/Montsera11y-LightItalic.woff2') format('woff2');
+    font-weight: 300;
+    font-style: italic;
+  }
+  @font-face {
+    font-family: 'Montsera11y';
+    src: url('output/woff2/Montsera11y-Regular.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Montsera11y';
+    src: url('output/woff2/Montsera11y-Italic.woff2') format('woff2');
+    font-weight: 400;
+    font-style: italic;
+  }
+  @font-face {
+    font-family: 'Montsera11y';
+    src: url('output/woff2/Montsera11y-Medium.woff2') format('woff2');
+    font-weight: 500;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Montsera11y';
+    src: url('output/woff2/Montsera11y-MediumItalic.woff2') format('woff2');
+    font-weight: 500;
+    font-style: italic;
+  }
+  @font-face {
+    font-family: 'Montsera11y';
+    src: url('output/woff2/Montsera11y-Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Montsera11y';
+    src: url('output/woff2/Montsera11y-BoldItalic.woff2') format('woff2');
+    font-weight: 700;
+    font-style: italic;
+  }
+
+  /* Fallback: also load original Montserrat for comparison */
+  @font-face {
+    font-family: 'Montserrat-Original';
+    src: url('Montserrat Original/static/Montserrat-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Montserrat-Original';
+    src: url('Montserrat Original/static/Montserrat-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: system-ui, sans-serif;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 2rem;
+    background: #fafafa;
+    color: #1a1a1a;
+  }
+
+  h1 {
+    font-family: 'Montsera11y', sans-serif;
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+  }
+
+  h1 span {
+    color: #e63946;
+  }
+
+  .subtitle {
+    color: #666;
+    margin-bottom: 2rem;
+    font-size: 0.9rem;
+  }
+
+  h2 {
+    font-size: 1.1rem;
+    margin: 2rem 0 1rem;
+    padding-bottom: 0.3rem;
+    border-bottom: 2px solid #e63946;
+    color: #333;
+  }
+
+  .test-section {
+    background: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .specimen {
+    font-family: 'Montsera11y', sans-serif;
+    margin: 0.5rem 0;
+    line-height: 1.6;
+  }
+
+  .specimen-original {
+    font-family: 'Montserrat-Original', sans-serif;
+    margin: 0.5rem 0;
+    line-height: 1.6;
+    color: #999;
+  }
+
+  .weight-label {
+    display: inline-block;
+    width: 140px;
+    font-family: monospace;
+    font-size: 0.75rem;
+    color: #888;
+    flex-shrink: 0;
+  }
+
+  .weight-row {
+    display: flex;
+    align-items: baseline;
+    gap: 1rem;
+    margin: 0.4rem 0;
+  }
+
+  .size-24 { font-size: 24px; }
+  .size-18 { font-size: 18px; }
+  .size-16 { font-size: 16px; }
+  .size-14 { font-size: 14px; }
+  .size-12 { font-size: 12px; }
+
+  .light { font-weight: 300; }
+  .regular { font-weight: 400; }
+  .medium { font-weight: 500; }
+  .bold { font-weight: 700; }
+
+  .italic { font-style: italic; }
+
+  .highlight {
+    background: #fff3cd;
+    padding: 0 2px;
+    border-radius: 2px;
+  }
+
+  .comparison {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+  }
+
+  .comparison > div {
+    padding: 1rem;
+    border-radius: 4px;
+  }
+
+  .comparison .modified {
+    background: #e8f5e9;
+  }
+
+  .comparison .original {
+    background: #f5f5f5;
+  }
+
+  .comparison-label {
+    font-family: monospace;
+    font-size: 0.7rem;
+    color: #888;
+    text-transform: uppercase;
+    margin-bottom: 0.5rem;
+  }
+
+  .note {
+    font-size: 0.8rem;
+    color: #666;
+    margin-top: 1rem;
+    padding: 0.8rem;
+    background: #f0f7ff;
+    border-radius: 4px;
+    border-left: 3px solid #2196F3;
+  }
+</style>
+</head>
+<body>
+
+<h1>Montser<span>a11y</span></h1>
+<p class="subtitle">Accessibility-enhanced Montserrat — visuele testpagina</p>
+
+<!-- ============================================ -->
+<h2>1. I/l/1 onderscheid</h2>
+<!-- ============================================ -->
+<div class="test-section">
+  <div class="weight-row">
+    <span class="weight-label">Light 300</span>
+    <span class="specimen light size-24">Illegal IllIlI1l1 Illicit</span>
+  </div>
+  <div class="weight-row">
+    <span class="weight-label">Regular 400</span>
+    <span class="specimen regular size-24">Illegal IllIlI1l1 Illicit</span>
+  </div>
+  <div class="weight-row">
+    <span class="weight-label">Medium 500</span>
+    <span class="specimen medium size-24">Illegal IllIlI1l1 Illicit</span>
+  </div>
+  <div class="weight-row">
+    <span class="weight-label">Bold 700</span>
+    <span class="specimen bold size-24">Illegal IllIlI1l1 Illicit</span>
+  </div>
+</div>
+
+<!-- ============================================ -->
+<h2>2. Schuine e (crossbar)</h2>
+<!-- ============================================ -->
+<div class="test-section">
+  <div class="weight-row">
+    <span class="weight-label">Light 300</span>
+    <span class="specimen light size-24">element eleven excellent</span>
+  </div>
+  <div class="weight-row">
+    <span class="weight-label">Regular 400</span>
+    <span class="specimen regular size-24">element eleven excellent</span>
+  </div>
+  <div class="weight-row">
+    <span class="weight-label">Medium 500</span>
+    <span class="specimen medium size-24">element eleven excellent</span>
+  </div>
+  <div class="weight-row">
+    <span class="weight-label">Bold 700</span>
+    <span class="specimen bold size-24">element eleven excellent</span>
+  </div>
+
+  <div class="note">
+    Italic varianten — de schuinte versterkt het effect van de crossbar:
+  </div>
+
+  <div class="weight-row">
+    <span class="weight-label">Light 300 Italic</span>
+    <span class="specimen light italic size-24">element eleven excellent</span>
+  </div>
+  <div class="weight-row">
+    <span class="weight-label">Regular 400 Italic</span>
+    <span class="specimen regular italic size-24">element eleven excellent</span>
+  </div>
+  <div class="weight-row">
+    <span class="weight-label">Medium 500 Italic</span>
+    <span class="specimen medium italic size-24">element eleven excellent</span>
+  </div>
+  <div class="weight-row">
+    <span class="weight-label">Bold 700 Italic</span>
+    <span class="specimen bold italic size-24">element eleven excellent</span>
+  </div>
+</div>
+
+<!-- ============================================ -->
+<h2>3. w met serif</h2>
+<!-- ============================================ -->
+<div class="test-section">
+  <div class="weight-row">
+    <span class="weight-label">Light 300</span>
+    <span class="specimen light size-24">we were welcome www</span>
+  </div>
+  <div class="weight-row">
+    <span class="weight-label">Regular 400</span>
+    <span class="specimen regular size-24">we were welcome www</span>
+  </div>
+  <div class="weight-row">
+    <span class="weight-label">Medium 500</span>
+    <span class="specimen medium size-24">we were welcome www</span>
+  </div>
+  <div class="weight-row">
+    <span class="weight-label">Bold 700</span>
+    <span class="specimen bold size-24">we were welcome www</span>
+  </div>
+</div>
+
+<!-- ============================================ -->
+<h2>4. Alle aangepaste glyphs samen</h2>
+<!-- ============================================ -->
+<div class="test-section">
+  <div class="weight-row">
+    <span class="weight-label">Light 300</span>
+    <span class="specimen light size-24"><span class="highlight">I</span>ll<span class="highlight">e</span>ga<span class="highlight">l</span> <span class="highlight">w</span>eb <span class="highlight">e</span>l<span class="highlight">e</span>ments</span>
+  </div>
+  <div class="weight-row">
+    <span class="weight-label">Regular 400</span>
+    <span class="specimen regular size-24"><span class="highlight">I</span>ll<span class="highlight">e</span>ga<span class="highlight">l</span> <span class="highlight">w</span>eb <span class="highlight">e</span>l<span class="highlight">e</span>ments</span>
+  </div>
+  <div class="weight-row">
+    <span class="weight-label">Medium 500</span>
+    <span class="specimen medium size-24"><span class="highlight">I</span>ll<span class="highlight">e</span>ga<span class="highlight">l</span> <span class="highlight">w</span>eb <span class="highlight">e</span>l<span class="highlight">e</span>ments</span>
+  </div>
+  <div class="weight-row">
+    <span class="weight-label">Bold 700</span>
+    <span class="specimen bold size-24"><span class="highlight">I</span>ll<span class="highlight">e</span>ga<span class="highlight">l</span> <span class="highlight">w</span>eb <span class="highlight">e</span>l<span class="highlight">e</span>ments</span>
+  </div>
+</div>
+
+<!-- ============================================ -->
+<h2>5. Vergelijking met origineel (Regular)</h2>
+<!-- ============================================ -->
+<div class="test-section">
+  <div class="comparison">
+    <div class="modified">
+      <div class="comparison-label">Montsera11y</div>
+      <p class="specimen regular size-24">Illegal IllIlI1l1</p>
+      <p class="specimen regular size-24">element eleven</p>
+      <p class="specimen regular size-24">we were welcome</p>
+      <p class="specimen regular size-18">The quick brown fox jumps over the lazy dog</p>
+    </div>
+    <div class="original">
+      <div class="comparison-label">Montserrat (origineel)</div>
+      <p class="specimen-original size-24" style="font-weight:400">Illegal IllIlI1l1</p>
+      <p class="specimen-original size-24" style="font-weight:400">element eleven</p>
+      <p class="specimen-original size-24" style="font-weight:400">we were welcome</p>
+      <p class="specimen-original size-18" style="font-weight:400">The quick brown fox jumps over the lazy dog</p>
+    </div>
+  </div>
+</div>
+
+<!-- ============================================ -->
+<h2>6. Verschillende formaten</h2>
+<!-- ============================================ -->
+<div class="test-section">
+  <div class="weight-row">
+    <span class="weight-label">24px</span>
+    <span class="specimen regular size-24">Illegal elements welcome worldwide</span>
+  </div>
+  <div class="weight-row">
+    <span class="weight-label">18px</span>
+    <span class="specimen regular size-18">Illegal elements welcome worldwide</span>
+  </div>
+  <div class="weight-row">
+    <span class="weight-label">16px</span>
+    <span class="specimen regular size-16">Illegal elements welcome worldwide</span>
+  </div>
+  <div class="weight-row">
+    <span class="weight-label">14px</span>
+    <span class="specimen regular size-14">Illegal elements welcome worldwide</span>
+  </div>
+  <div class="weight-row">
+    <span class="weight-label">12px</span>
+    <span class="specimen regular size-12">Illegal elements welcome worldwide</span>
+  </div>
+</div>
+
+<!-- ============================================ -->
+<h2>7. Lopende tekst</h2>
+<!-- ============================================ -->
+<div class="test-section">
+  <p class="specimen regular size-16" style="max-width: 65ch;">
+    Inclusief webdesign betekent dat iedereen welkom is. Bij Eleven Ways
+    geloven we dat leesbaarheid een fundamenteel onderdeel is van
+    toegankelijkheid. Illegale lettertypekeuzes leiden tot exclusie.
+    We willen dat elke letter — van de I tot de l, van de e tot de w —
+    ondubbelzinnig leesbaar is voor iedereen.
+  </p>
+  <br>
+  <p class="specimen regular italic size-16" style="max-width: 65ch;">
+    Inclusive web design means everyone is welcome. At Eleven Ways
+    we believe legibility is a fundamental aspect of accessibility.
+    Illegal font choices lead to exclusion. We want every letter —
+    from I to l, from e to w — to be unambiguously readable for all.
+  </p>
+</div>
+
+</body>
+</html>
