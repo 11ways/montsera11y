@@ -4,6 +4,8 @@ Een toegankelijkere versie van het [Montserrat](https://github.com/JulietaUla/Mo
 
 De naam **Montsera11y** combineert Montserrat, **a11y** (accessibility) en **11** (Eleven Ways).
 
+![Voorbeeld van het Montsera11y-lettertype met het volledige alfabet, cijfers en speciale tekens. De aangepaste letters e, l en I zijn gemarkeerd in het zwart.](example.png)
+
 ## Wat is er aangepast?
 
 Vier karakters worden aangepast om de leesbaarheid te verhogen:
