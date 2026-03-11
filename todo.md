@@ -9,29 +9,27 @@
 - [x] Licentiebestand `OFL.txt` met derivative copyright voor Eleven Ways
 - [x] **Eerste aanpassing aan de letter `e`** in Montserrat-Regular.ttf (schuine crossbar) — gelukt!
 - [x] Exporteren vanuit FontForge naar TTF → rename-script → WOFF2 → testpagina — werkt!
-
-## Bekend probleem
-
-- [ ] **Kerning klopt niet** na export uit FontForge — moet onderzocht worden. Mogelijk gaan kerning-tabellen (GPOS) verloren bij Generate Fonts, of moeten ze opnieuw worden opgebouwd.
-
-## Nog te doen
-
-### Glyph-aanpassingen in Montserrat-Regular.ttf
 - [x] `e` — schuine crossbar
 - [x] `l` — serif linksboven
 - [x] `I` — bilaterale schreven boven en onder
-- [ ] `w` — serif linksboven
+- [x] `w` — serif linksboven
 
-### Overige fontgewichten
-Dezelfde 4 glyphs moeten aangepast worden in alle andere gewichten:
+### De fontgewichten
+De 4 glyphs moeten aangepast worden in alle deze gewichten:
 
 - [ ] Montserrat-Light.ttf
 - [ ] Montserrat-LightItalic.ttf
+- [ ] Montserrat-Regular.ttf
 - [ ] Montserrat-Italic.ttf (Regular Italic)
 - [ ] Montserrat-Medium.ttf
 - [ ] Montserrat-MediumItalic.ttf
 - [ ] Montserrat-Bold.ttf
 - [ ] Montserrat-BoldItalic.ttf
+
+## Bekend probleem
+
+- [ ] **Kerning klopt niet** na export uit FontForge — moet onderzocht worden. Mogelijk gaan kerning-tabellen (GPOS) verloren bij Generate Fonts, of moeten ze opnieuw worden opgebouwd.
+
 
 ### Afronding
 - [ ] Kerningprobleem oplossen

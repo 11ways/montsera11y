@@ -30,7 +30,7 @@ Het lettertype is beschikbaar in 4 gewichten, elk met een italic variant:
 
 ```
 src/                ← Bronbestanden in `.sdf`, voor de aanpassingen (FontForge file format)
-working/            ← Aangepaste TTF-bestanden (FontForge generated) om changes lokaal te testen
+working/            ← Geëxporteerde TTF-bestanden vanuit FontForge (om lokaal font te testen)
 output/ttf/         ← Hernoemde TTF-bestanden
 output/woff2/       ← WOFF2-bestanden voor webgebruik
 scripts/
