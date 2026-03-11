@@ -18,8 +18,8 @@
 
 ### Glyph-aanpassingen in Montserrat-Regular.ttf
 - [x] `e` — schuine crossbar
-- [ ] `l` — serif linksboven (eerste poging gedaan, moet verfijnd worden)
-- [ ] `I` — bilaterale schreven boven en onder
+- [x] `l` — serif linksboven
+- [x] `I` — bilaterale schreven boven en onder
 - [ ] `w` — serif linksboven
 
 ### Overige fontgewichten
