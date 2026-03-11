@@ -22,7 +22,7 @@ OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1624264748
-ModificationTime: 1773226567
+ModificationTime: 1773234124
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -5578,7 +5578,7 @@ NameList: AGL For New Fonts
 DisplaySize: -72
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 88 11 3
+WinInfo: 44 11 3
 Grid
 72 1300 m 0
  72 -700 l 1024
@@ -6217,7 +6217,6 @@ SplineSet
  246 0 l 1,6,-1
  174 0 l 1,0,-1
 EndSplineSet
-Validated: 5
 Substitution2: "'onum' Oldstyle Figures lookup 44 subtable" one.osf
 Substitution2: "'tnum' Tabular Numbers lookup 43 subtable" one.tf
 Substitution2: "'frac' Diagonal Fractions lookup 35 subtable" one.numr
@@ -7150,23 +7149,33 @@ EndChar
 
 StartChar: I
 Encoding: 73 73 46
-Width: 302
+Width: 298
 GlyphClass: 2
 Flags: W
-AnchorPoint: "Anchor-3" 151 700 basechar 0
-AnchorPoint: "Anchor-2" 188 0 basechar 0
-AnchorPoint: "Anchor-1" 151 350 basechar 0
-AnchorPoint: "Anchor-0" 151 0 basechar 0
+AnchorPoint: "Anchor-3" 147 700 basechar 0
+AnchorPoint: "Anchor-2" 184 0 basechar 0
+AnchorPoint: "Anchor-1" 147 350 basechar 0
+AnchorPoint: "Anchor-0" 147 0 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-114 0 m 1,0,-1
- 114 700 l 1,1,-1
- 188 700 l 1,2,-1
- 188 0 l 1,3,-1
- 114 0 l 1,0,-1
+36 59 m 1,0,-1
+ 258 59 l 1,1,-1
+ 258 0 l 1,2,-1
+ 36 0 l 1,3,-1
+ 36 59 l 1,0,-1
+32 691.5 m 1,4,-1
+ 254 691.5 l 1,5,-1
+ 254 632.5 l 1,6,-1
+ 32 632.5 l 1,7,-1
+ 32 691.5 l 1,4,-1
+110 10 m 1,8,-1
+ 110 690 l 1,9,-1
+ 184 690 l 1,10,-1
+ 184 10 l 1,11,-1
+ 110 10 l 1,8,-1
 EndSplineSet
-Validated: 1
+Validated: 5
 Substitution2: "'ss01' Style Set 1 lookup 50 subtable" I.ss01
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 45 subtable" i.sc
 AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" i.sc I.ss01
@@ -8381,17 +8390,18 @@ AnchorPoint: "Anchor-0" 133 0 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-26 742 m 1,0,-1
- 145 742 l 1,1,-1
- 145 683 l 1,2,-1
- 26 683 l 1,3,-1
- 26 742 l 1,0,-1
+26 742 m 5,0,-1
+ 145 742 l 5,1,-1
+ 145 683 l 5,2,-1
+ 26 683 l 5,3,-1
+ 26 742 l 5,0,-1
 97 0 m 1,4,-1
  97 742 l 1,5,-1
  168 742 l 1,6,-1
  168 0 l 1,7,-1
  97 0 l 1,4,-1
 EndSplineSet
+Validated: 5
 Substitution2: "'ss01' Style Set 1 lookup 50 subtable" l.ss01
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 46 subtable" l.sc
 AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" l.sc l.ss01
@@ -10228,7 +10238,7 @@ EndChar
 
 StartChar: Igrave
 Encoding: 204 204 143
-Width: 302
+Width: 298
 GlyphClass: 2
 Flags: W
 AnchorPoint: "Anchor-3" 151 881 basechar 0
@@ -10238,8 +10248,8 @@ AnchorPoint: "Anchor-0" 151 0 basechar 0
 LayerCount: 2
 Fore
 Refer: 46 73 N 1 0 0 1 0 0 3
-Refer: 575 768 N 1 0 0 1 -149 150 2
-Validated: 1
+Refer: 575 768 N 1 0 0 1 -153 150 2
+Validated: 5
 Substitution2: "'ss01' Style Set 1 lookup 50 subtable" Igrave.ss01
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 45 subtable" igrave.sc
 AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" igrave.sc Igrave.ss01
@@ -10247,7 +10257,7 @@ EndChar
 
 StartChar: Iacute
 Encoding: 205 205 144
-Width: 302
+Width: 298
 GlyphClass: 2
 Flags: W
 AnchorPoint: "Anchor-3" 151 881 basechar 0
@@ -10257,8 +10267,8 @@ AnchorPoint: "Anchor-0" 151 0 basechar 0
 LayerCount: 2
 Fore
 Refer: 46 73 N 1 0 0 1 0 0 3
-Refer: 576 769 N 1 0 0 1 -149 150 2
-Validated: 1
+Refer: 576 769 N 1 0 0 1 -153 150 2
+Validated: 5
 Substitution2: "'ss01' Style Set 1 lookup 50 subtable" Iacute.ss01
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 45 subtable" iacute.sc
 AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" iacute.sc Iacute.ss01
@@ -10266,7 +10276,7 @@ EndChar
 
 StartChar: Icircumflex
 Encoding: 206 206 145
-Width: 302
+Width: 298
 GlyphClass: 2
 Flags: W
 AnchorPoint: "Anchor-3" 151 881 basechar 0
@@ -10276,7 +10286,7 @@ AnchorPoint: "Anchor-0" 151 0 basechar 0
 LayerCount: 2
 Fore
 Refer: 46 73 N 1 0 0 1 0 0 3
-Refer: 577 770 N 1 0 0 1 -149 150 2
+Refer: 577 770 N 1 0 0 1 -153 150 2
 Validated: 5
 Substitution2: "'ss01' Style Set 1 lookup 50 subtable" Icircumflex.ss01
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 45 subtable" icircumflex.sc
@@ -10285,7 +10295,7 @@ EndChar
 
 StartChar: Idieresis
 Encoding: 207 207 146
-Width: 302
+Width: 298
 GlyphClass: 2
 Flags: W
 AnchorPoint: "Anchor-3" 151 866 basechar 0
@@ -10295,8 +10305,8 @@ AnchorPoint: "Anchor-0" 151 0 basechar 0
 LayerCount: 2
 Fore
 Refer: 46 73 N 1 0 0 1 0 0 3
-Refer: 582 776 N 1 0 0 1 -149 150 2
-Validated: 1
+Refer: 582 776 N 1 0 0 1 -153 150 2
+Validated: 5
 Substitution2: "'ss01' Style Set 1 lookup 50 subtable" Idieresis.ss01
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 45 subtable" idieresis.sc
 AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" idieresis.sc Idieresis.ss01
@@ -12223,7 +12233,7 @@ EndChar
 
 StartChar: Itilde
 Encoding: 296 296 235
-Width: 302
+Width: 298
 GlyphClass: 2
 Flags: W
 AnchorPoint: "Anchor-3" 151 877 basechar 0
@@ -12233,8 +12243,8 @@ AnchorPoint: "Anchor-0" 151 0 basechar 0
 LayerCount: 2
 Fore
 Refer: 46 73 N 1 0 0 1 0 0 3
-Refer: 2644 -1 N 1 0 0 1 -149 0 2
-Validated: 1
+Refer: 2644 -1 N 1 0 0 1 -153 0 2
+Validated: 5
 Substitution2: "'ss01' Style Set 1 lookup 50 subtable" Itilde.ss01
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 45 subtable" itilde.sc
 AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" itilde.sc Itilde.ss01
@@ -12260,7 +12270,7 @@ EndChar
 
 StartChar: Imacron
 Encoding: 298 298 237
-Width: 302
+Width: 298
 GlyphClass: 2
 Flags: W
 AnchorPoint: "Anchor-3" 151 842 basechar 0
@@ -12270,8 +12280,8 @@ AnchorPoint: "Anchor-0" 151 0 basechar 0
 LayerCount: 2
 Fore
 Refer: 46 73 N 1 0 0 1 0 0 3
-Refer: 2633 -1 N 1 0 0 1 -149 150 2
-Validated: 1
+Refer: 2633 -1 N 1 0 0 1 -153 150 2
+Validated: 5
 Substitution2: "'ss01' Style Set 1 lookup 50 subtable" Imacron.ss01
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 45 subtable" imacron.sc
 AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" imacron.sc Imacron.ss01
@@ -12297,7 +12307,7 @@ EndChar
 
 StartChar: Ibreve
 Encoding: 300 300 239
-Width: 302
+Width: 298
 GlyphClass: 2
 Flags: W
 AnchorPoint: "Anchor-3" 151 881 basechar 0
@@ -12307,8 +12317,8 @@ AnchorPoint: "Anchor-0" 151 0 basechar 0
 LayerCount: 2
 Fore
 Refer: 46 73 N 1 0 0 1 0 0 3
-Refer: 580 774 N 1 0 0 1 -149 160 2
-Validated: 1
+Refer: 580 774 N 1 0 0 1 -153 160 2
+Validated: 5
 Substitution2: "'ss01' Style Set 1 lookup 50 subtable" Ibreve.ss01
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 45 subtable" ibreve.sc
 AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" ibreve.sc Ibreve.ss01
@@ -12334,7 +12344,7 @@ EndChar
 
 StartChar: Iogonek
 Encoding: 302 302 241
-Width: 302
+Width: 298
 GlyphClass: 2
 Flags: W
 AnchorPoint: "Anchor-3" 151 700 basechar 0
@@ -12344,7 +12354,7 @@ AnchorPoint: "Anchor-0" 148 -174 basechar 0
 LayerCount: 2
 Fore
 Refer: 46 73 N 1 0 0 1 0 0 3
-Refer: 2616 -1 N 1 0 0 1 4 0 2
+Refer: 2616 -1 N 1 0 0 1 0 0 2
 Validated: 5
 Substitution2: "'ss01' Style Set 1 lookup 50 subtable" Iogonek.ss01
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 45 subtable" iogonek.sc
@@ -12376,7 +12386,7 @@ EndChar
 
 StartChar: Idotaccent
 Encoding: 304 304 243
-Width: 302
+Width: 298
 GlyphClass: 2
 Flags: W
 AnchorPoint: "Anchor-3" 151 876 basechar 0
@@ -12386,8 +12396,8 @@ AnchorPoint: "Anchor-0" 151 0 basechar 0
 LayerCount: 2
 Fore
 Refer: 46 73 N 1 0 0 1 0 0 3
-Refer: 581 775 N 1 0 0 1 -149 150 2
-Validated: 1
+Refer: 581 775 N 1 0 0 1 -153 150 2
+Validated: 5
 Substitution2: "'ss01' Style Set 1 lookup 50 subtable" Idotaccent.ss01
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 45 subtable" i.loclTRK.sc
 AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" i.loclTRK.sc Idotaccent.ss01
@@ -12602,6 +12612,7 @@ LayerCount: 2
 Fore
 Refer: 81 108 N 1 0 0 1 0 0 3
 Refer: 576 769 N 1 0 0 1 -417 199 2
+Validated: 5
 Substitution2: "'ss01' Style Set 1 lookup 50 subtable" lacute.ss01
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 46 subtable" lacute.sc
 AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" lacute.sc lacute.ss01
@@ -12638,6 +12649,7 @@ LayerCount: 2
 Fore
 Refer: 81 108 N 1 0 0 1 0 0 3
 Refer: 599 806 N 1 0 0 1 -417 0 2
+Validated: 5
 Substitution2: "'ss01' Style Set 1 lookup 50 subtable" uni013C.ss01
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 46 subtable" uni013C.sc
 AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" uni013C.sc uni013C.ss01
@@ -12674,6 +12686,7 @@ LayerCount: 2
 Fore
 Refer: 81 108 N 1 0 0 1 0 0 3
 Refer: 2538 -1 N 1 0 0 1 -290 42 2
+Validated: 5
 Kerns2: 78 47 "'kern' Horizontal Kerning lookup 0 per glyph data 1"
 Substitution2: "'ss01' Style Set 1 lookup 50 subtable" lcaron.ss01
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 46 subtable" lcaron.sc
@@ -12712,6 +12725,7 @@ LayerCount: 2
 Fore
 Refer: 81 108 N 1 0 0 1 0 0 2
 Refer: 2478 -1 N 1 0 0 1 267 0 2
+Validated: 5
 Substitution2: "'ss01' Style Set 1 lookup 50 subtable" ldot.ss01
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 46 subtable" ldot.sc
 MultipleSubs2: "'ccmp' Glyph Composition/Decomposition lookup 10 subtable" l periodcentered.loclCAT
@@ -12749,6 +12763,7 @@ LayerCount: 2
 Fore
 Refer: 81 108 N 1 0 0 1 5 0 3
 Refer: 612 823 N 1 0 0 1 -302 -38 2
+Validated: 5
 Kerns2: 1136 -2 "'kern' Horizontal Kerning lookup 0 per glyph data 1" 1134 -2 "'kern' Horizontal Kerning lookup 0 per glyph data 1" 1132 -2 "'kern' Horizontal Kerning lookup 0 per glyph data 1" 1130 -2 "'kern' Horizontal Kerning lookup 0 per glyph data 1" 1043 -2 "'kern' Horizontal Kerning lookup 0 per glyph data 1" 1033 -2 "'kern' Horizontal Kerning lookup 0 per glyph data 1" 502 -2 "'kern' Horizontal Kerning lookup 0 per glyph data 1" 481 -2 "'kern' Horizontal Kerning lookup 0 per glyph data 1" 365 -2 "'kern' Horizontal Kerning lookup 0 per glyph data 1" 314 -2 "'kern' Horizontal Kerning lookup 0 per glyph data 1" 194 -2 "'kern' Horizontal Kerning lookup 0 per glyph data 1" 192 -2 "'kern' Horizontal Kerning lookup 0 per glyph data 1" 94 -2 "'kern' Horizontal Kerning lookup 0 per glyph data 1"
 Substitution2: "'ss01' Style Set 1 lookup 50 subtable" lslash.ss01
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 46 subtable" lslash.sc
@@ -16284,6 +16299,7 @@ Fore
 Refer: 81 108 N 1 0 0 1 0 0 2
 Refer: 482 567 N 1 0 0 1 269 0 2
 Refer: 2615 -1 N 1 0 0 1 109 0 2
+Validated: 5
 Kerns2: 526 6 "'kern' Horizontal Kerning lookup 0 per glyph data 1"
 Substitution2: "'ss01' Style Set 1 lookup 50 subtable" uni01C9.ss01
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 46 subtable" uni01C9.sc
@@ -16387,7 +16403,7 @@ EndChar
 
 StartChar: uni01CF
 Encoding: 463 463 386
-Width: 302
+Width: 298
 GlyphClass: 2
 Flags: W
 AnchorPoint: "Anchor-3" 151 881 basechar 0
@@ -16397,7 +16413,7 @@ AnchorPoint: "Anchor-0" 151 0 basechar 0
 LayerCount: 2
 Fore
 Refer: 46 73 N 1 0 0 1 0 0 3
-Refer: 586 780 N 1 0 0 1 -149 150 2
+Refer: 586 780 N 1 0 0 1 -153 150 2
 Validated: 5
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 45 subtable" uni01D0.sc
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" uni01D0.sc
@@ -17594,7 +17610,7 @@ EndChar
 
 StartChar: uni0208
 Encoding: 520 520 441
-Width: 302
+Width: 298
 GlyphClass: 2
 Flags: W
 AnchorPoint: "Anchor-3" 151 700 basechar 0
@@ -17604,8 +17620,8 @@ AnchorPoint: "Anchor-0" 151 0 basechar 0
 LayerCount: 2
 Fore
 Refer: 46 73 N 1 0 0 1 0 0 3
-Refer: 588 783 N 1 0 0 1 -149 150 2
-Validated: 1
+Refer: 588 783 N 1 0 0 1 -153 150 2
+Validated: 5
 Substitution2: "'ss01' Style Set 1 lookup 50 subtable" uni0208.ss01
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 45 subtable" uni0209.sc
 AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" uni0209.sc uni0208.ss01
@@ -17632,7 +17648,7 @@ EndChar
 
 StartChar: uni020A
 Encoding: 522 522 443
-Width: 302
+Width: 298
 GlyphClass: 2
 Flags: W
 AnchorPoint: "Anchor-3" 151 700 basechar 0
@@ -17642,8 +17658,8 @@ AnchorPoint: "Anchor-0" 151 0 basechar 0
 LayerCount: 2
 Fore
 Refer: 46 73 N 1 0 0 1 0 0 3
-Refer: 590 785 N 1 0 0 1 -149 150 2
-Validated: 1
+Refer: 590 785 N 1 0 0 1 -153 150 2
+Validated: 5
 Substitution2: "'ss01' Style Set 1 lookup 50 subtable" uni020A.ss01
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 45 subtable" uni020B.sc
 AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" uni020B.sc uni020A.ss01
@@ -31554,7 +31570,7 @@ LayerCount: 2
 Fore
 Refer: 46 73 N 1 0 0 1 0 0 2
 Refer: 2644 -1 N 1 0 0 1 -139 -944 2
-Validated: 1
+Validated: 5
 Substitution2: "'ss01' Style Set 1 lookup 50 subtable" uni1E2C.ss01
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 45 subtable" uni1E2D.sc
 AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" uni1E2D.sc uni1E2C.ss01
@@ -31584,7 +31600,7 @@ EndChar
 
 StartChar: uni1E2E
 Encoding: 7726 7726 936
-Width: 302
+Width: 298
 GlyphClass: 2
 Flags: W
 AnchorPoint: "Anchor-3" 151 700 basechar 0
@@ -31594,9 +31610,9 @@ AnchorPoint: "Anchor-0" 151 0 basechar 0
 LayerCount: 2
 Fore
 Refer: 46 73 N 1 0 0 1 0 0 3
-Refer: 2618 -1 N 1 0 0 1 -149 150 2
-Refer: 2621 -1 N 1 0 0 1 -149 282 2
-Validated: 1
+Refer: 2618 -1 N 1 0 0 1 -153 150 2
+Refer: 2621 -1 N 1 0 0 1 -153 282 2
+Validated: 5
 Substitution2: "'ss01' Style Set 1 lookup 50 subtable" uni1E2E.ss01
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 45 subtable" uni1E2F.sc
 AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" uni1E2F.sc uni1E2E.ss01
@@ -31751,6 +31767,7 @@ LayerCount: 2
 Fore
 Refer: 81 108 N 1 0 0 1 0 0 3
 Refer: 581 775 N 1 0 0 1 -417 -813 2
+Validated: 5
 Substitution2: "'ss01' Style Set 1 lookup 50 subtable" uni1E37.ss01
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 46 subtable" uni1E37.sc
 AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" uni1E37.sc uni1E37.ss01
@@ -31789,6 +31806,7 @@ Fore
 Refer: 81 108 N 1 0 0 1 0 0 3
 Refer: 581 775 N 1 0 0 1 -417 -813 2
 Refer: 579 772 N 1 0 0 1 -417 175 2
+Validated: 5
 Substitution2: "'ss01' Style Set 1 lookup 50 subtable" uni1E39.ss01
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 46 subtable" uni1E39.sc
 AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" uni1E39.sc uni1E39.ss01
@@ -31870,6 +31888,7 @@ LayerCount: 2
 Fore
 Refer: 81 108 N 1 0 0 1 0 0 3
 Refer: 577 770 N 1 0 0 1 -417 -806 2
+Validated: 5
 Substitution2: "'ss01' Style Set 1 lookup 50 subtable" uni1E3D.ss01
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 46 subtable" uni1E3D.sc
 AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" uni1E3D.sc uni1E3D.ss01
@@ -34450,7 +34469,7 @@ EndChar
 
 StartChar: uni1EC8
 Encoding: 7880 7880 1087
-Width: 302
+Width: 298
 GlyphClass: 2
 Flags: W
 AnchorPoint: "Anchor-3" 151 908 basechar 0
@@ -34460,8 +34479,8 @@ AnchorPoint: "Anchor-0" 151 0 basechar 0
 LayerCount: 2
 Fore
 Refer: 46 73 N 1 0 0 1 0 0 3
-Refer: 583 777 N 1 0 0 1 -152 144 2
-Validated: 1
+Refer: 583 777 N 1 0 0 1 -156 144 2
+Validated: 5
 Substitution2: "'ss01' Style Set 1 lookup 50 subtable" uni1EC8.ss01
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 45 subtable" uni1EC9.sc
 AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" uni1EC9.sc uni1EC8.ss01
@@ -34487,7 +34506,7 @@ EndChar
 
 StartChar: uni1ECA
 Encoding: 7882 7882 1089
-Width: 302
+Width: 298
 GlyphClass: 2
 Flags: W
 AnchorPoint: "Anchor-3" 151 700 basechar 0
@@ -34497,8 +34516,8 @@ AnchorPoint: "Anchor-0" 151 -135 basechar 0
 LayerCount: 2
 Fore
 Refer: 46 73 N 1 0 0 1 0 0 3
-Refer: 581 775 N 1 0 0 1 -149 -812 2
-Validated: 1
+Refer: 581 775 N 1 0 0 1 -153 -812 2
+Validated: 5
 Substitution2: "'ss01' Style Set 1 lookup 50 subtable" uni1ECA.ss01
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 45 subtable" uni1ECB.sc
 AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" uni1ECB.sc uni1ECA.ss01
@@ -40832,6 +40851,7 @@ LayerCount: 2
 Fore
 Refer: 75 102 N 1 0 0 1 0 0 2
 Refer: 81 108 N 1 0 0 1 339 0 2
+Validated: 5
 Substitution2: "'ss01' Style Set 1 lookup 50 subtable" fl.ss01
 Ligature2: "'liga' Standard Ligatures lookup 49 subtable" f l
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 46 subtable" fl.sc
@@ -40997,7 +41017,7 @@ EndChar
 
 StartChar: Iogonek.loclNAV
 Encoding: 65545 -1 1321
-Width: 302
+Width: 298
 GlyphClass: 2
 Flags: W
 AnchorPoint: "Anchor-3" 151 700 basechar 0
@@ -41007,8 +41027,8 @@ AnchorPoint: "Anchor-0" 151 0 basechar 0
 LayerCount: 2
 Fore
 Refer: 46 73 N 1 0 0 1 0 0 3
-Refer: 2617 -1 N 1 0 0 1 -19 0 2
-Validated: 1
+Refer: 2617 -1 N 1 0 0 1 -23 0 2
+Validated: 5
 Substitution2: "'ss01' Style Set 1 lookup 50 subtable" Iogonek.loclNAV.ss01
 Substitution2: "'c2sc' Capitals to Small Capitals lookup 45 subtable" iogonek.loclNAV.sc
 AlternateSubs2: "'aalt' Access All Alternates lookup 1 subtable" iogonek.loclNAV.sc Iogonek.loclNAV.ss01
