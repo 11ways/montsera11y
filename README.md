@@ -29,7 +29,8 @@ Het lettertype is beschikbaar in 4 gewichten, elk met een italic variant:
 ## Bestanden
 
 ```
-working/            ← Bronbestanden (bewerkt in FontForge)
+src/                ← Bronbestanden in `.sdf`, voor de aanpassingen (FontForge file format)
+working/            ← Aangepaste TTF-bestanden (FontForge generated) om changes lokaal te testen
 output/ttf/         ← Hernoemde TTF-bestanden
 output/woff2/       ← WOFF2-bestanden voor webgebruik
 scripts/
@@ -37,6 +38,13 @@ scripts/
   verify_font.py    ← Metadata-verificatie
 test.html           ← Visuele testpagina
 ```
+
+## Requirements
+
+* python3
+* pip3 (normally comes with python)
+* fonttools (python module)
+* brotli
 
 ## Gebruik
 
