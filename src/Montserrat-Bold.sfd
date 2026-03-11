@@ -22,7 +22,7 @@ OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1624264748
-ModificationTime: 1773235487
+ModificationTime: 1773238082
 PfmFamily: 81
 TTFWeight: 700
 TTFWidth: 5
@@ -23595,12 +23595,12 @@ Fore
 SplineSet
 0 742 m 1,0,-1
  258 742 l 1,1,-1
- 258 620 l 1,2,-1
+ 233 620 l 1,2,-1
  0 620 l 1,3,-1
  0 742 l 1,0,-1
 102 0 m 1,4,-1
- 102 732 l 1,5,-1
- 258 732 l 1,6,-1
+ 102 730 l 1,5,-1
+ 258 742 l 1,6,-1
  258 0 l 1,7,-1
  102 0 l 1,4,-1
 EndSplineSet
@@ -23621,7 +23621,7 @@ AnchorPoint: "Anchor-0" 150 0 basechar 0
 LayerCount: 2
 Fore
 Refer: 757 108 N 1 0 0 1 0 0 3
-Refer: 2446 769 N 1 0 0 1 -120 191 2
+Refer: 2446 769 N 1 0 0 1 -40 191 2
 Substitution2: "'ss01' Style Set 1 lookup 52 subtable" lacute.ss01
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 48 subtable" lacute.sc
 AlternateSubs2: "'aalt' Access All Alternates lookup 3 subtable" lacute.sc lacute.ss01
@@ -23750,7 +23750,7 @@ AnchorPoint: "Anchor-0" 150 0 basechar 0
 LayerCount: 2
 Fore
 Refer: 757 108 N 1 0 0 1 0 0 3
-Refer: 2451 -1 N 1 0 0 1 38 42 2
+Refer: 2451 -1 N 1 0 0 1 118 42 2
 Kerns2: 719 125 "'kern' Horizontal Kerning lookup 0 per glyph data 1"
 Substitution2: "'ss01' Style Set 1 lookup 52 subtable" lcaron.ss01
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 48 subtable" lcaron.sc
@@ -23769,7 +23769,7 @@ AnchorPoint: "Anchor-0" 150 -173 basechar 0
 LayerCount: 2
 Fore
 Refer: 757 108 N 1 0 0 1 0 0 3
-Refer: 2452 770 N 1 0 0 1 -120 -815 2
+Refer: 2452 770 N 1 0 0 1 -40 -815 2
 Substitution2: "'ss01' Style Set 1 lookup 52 subtable" uni1E3D.ss01
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 48 subtable" uni1E3D.sc
 AlternateSubs2: "'aalt' Access All Alternates lookup 3 subtable" uni1E3D.sc uni1E3D.ss01
@@ -23787,7 +23787,7 @@ AnchorPoint: "Anchor-0" 150 -167 basechar 0
 LayerCount: 2
 Fore
 Refer: 757 108 N 1 0 0 1 0 0 3
-Refer: 2484 806 N 1 0 0 1 -120 0 2
+Refer: 2484 806 N 1 0 0 1 -40 0 2
 Substitution2: "'ss01' Style Set 1 lookup 52 subtable" uni013C.ss01
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 48 subtable" uni013C.sc
 AlternateSubs2: "'aalt' Access All Alternates lookup 3 subtable" uni013C.sc uni013C.ss01
@@ -23824,7 +23824,7 @@ AnchorPoint: "Anchor-0" 150 -167 basechar 0
 LayerCount: 2
 Fore
 Refer: 757 108 N 1 0 0 1 0 0 3
-Refer: 2441 775 N 1 0 0 1 -120 -837 2
+Refer: 2441 775 N 1 0 0 1 -40 -837 2
 Substitution2: "'ss01' Style Set 1 lookup 52 subtable" uni1E37.ss01
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 48 subtable" uni1E37.sc
 AlternateSubs2: "'aalt' Access All Alternates lookup 3 subtable" uni1E37.sc uni1E37.ss01
@@ -23842,8 +23842,8 @@ AnchorPoint: "Anchor-0" 150 -167 basechar 0
 LayerCount: 2
 Fore
 Refer: 757 108 N 1 0 0 1 0 0 3
-Refer: 2441 775 N 1 0 0 1 -120 -837 2
-Refer: 2465 772 N 1 0 0 1 -120 179 2
+Refer: 2441 775 N 1 0 0 1 -40 -837 2
+Refer: 2465 772 N 1 0 0 1 -40 179 2
 Substitution2: "'ss01' Style Set 1 lookup 52 subtable" uni1E39.ss01
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 48 subtable" uni1E39.sc
 AlternateSubs2: "'aalt' Access All Alternates lookup 3 subtable" uni1E39.sc uni1E39.ss01
@@ -23998,7 +23998,7 @@ AnchorPoint: "Anchor-0" 164 0 basechar 0
 LayerCount: 2
 Fore
 Refer: 757 108 N 1 0 0 1 13 0 3
-Refer: 2497 823 N 1 0 0 1 -56 -39 2
+Refer: 2497 823 N 1 0 0 1 24 -39 2
 Kerns2: 949 12 "'kern' Horizontal Kerning lookup 0 per glyph data 1" 948 12 "'kern' Horizontal Kerning lookup 0 per glyph data 1" 947 12 "'kern' Horizontal Kerning lookup 0 per glyph data 1" 946 12 "'kern' Horizontal Kerning lookup 0 per glyph data 1" 945 12 "'kern' Horizontal Kerning lookup 0 per glyph data 1" 944 12 "'kern' Horizontal Kerning lookup 0 per glyph data 1" 943 12 "'kern' Horizontal Kerning lookup 0 per glyph data 1" 942 12 "'kern' Horizontal Kerning lookup 0 per glyph data 1" 941 12 "'kern' Horizontal Kerning lookup 0 per glyph data 1" 940 12 "'kern' Horizontal Kerning lookup 0 per glyph data 1" 939 12 "'kern' Horizontal Kerning lookup 0 per glyph data 1" 938 12 "'kern' Horizontal Kerning lookup 0 per glyph data 1" 937 12 "'kern' Horizontal Kerning lookup 0 per glyph data 1"
 Substitution2: "'ss01' Style Set 1 lookup 52 subtable" lslash.ss01
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 48 subtable" lslash.sc
@@ -27999,31 +27999,36 @@ EndChar
 
 StartChar: w
 Encoding: 119 119 925
-Width: 957
+Width: 1047
 GlyphClass: 2
 Flags: W
-AnchorPoint: "Anchor-3" 477 538 basechar 0
-AnchorPoint: "Anchor-0" 477 0 basechar 0
+AnchorPoint: "Anchor-3" 567 538 basechar 0
+AnchorPoint: "Anchor-0" 567 0 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-205 0 m 1,0,-1
- 11 538 l 1,1,-1
- 158 538 l 1,2,-1
- 319 75 l 1,3,-1
- 249 75 l 1,4,-1
- 417 538 l 1,5,-1
- 549 538 l 1,6,-1
- 712 75 l 1,7,-1
- 642 75 l 1,8,-1
- 808 538 l 1,9,-1
- 946 538 l 1,10,-1
- 751 0 l 1,11,-1
- 600 0 l 1,12,-1
- 457 397 l 1,13,-1
- 503 397 l 1,14,-1
- 355 0 l 1,15,-1
- 205 0 l 1,0,-1
+43 538 m 1,0,-1
+ 145 538 l 1,1,-1
+ 145 416 l 1,2,-1
+ 43 416 l 1,3,-1
+ 43 538 l 1,0,-1
+295 0 m 1,4,-1
+ 101 538 l 1,5,-1
+ 248 538 l 1,6,-1
+ 409 75 l 1,7,-1
+ 339 75 l 1,8,-1
+ 507 538 l 1,9,-1
+ 639 538 l 1,10,-1
+ 802 75 l 1,11,-1
+ 732 75 l 1,12,-1
+ 898 538 l 1,13,-1
+ 1036 538 l 1,14,-1
+ 841 0 l 1,15,-1
+ 690 0 l 1,16,-1
+ 547 397 l 1,17,-1
+ 593 397 l 1,18,-1
+ 445 0 l 1,19,-1
+ 295 0 l 1,4,-1
 EndSplineSet
 Kerns2: 1044 2 "'kern' Horizontal Kerning lookup 0 per glyph data 1" 761 2 "'kern' Horizontal Kerning lookup 0 per glyph data 1" 745 -85 "'kern' Horizontal Kerning lookup 0 per glyph data 1"
 Substitution2: "'ss01' Style Set 1 lookup 52 subtable" w.ss01
@@ -28033,7 +28038,7 @@ EndChar
 
 StartChar: wacute
 Encoding: 7811 7811 926
-Width: 957
+Width: 1047
 GlyphClass: 2
 Flags: W
 AnchorPoint: "Anchor-3" 467 729 basechar 0
@@ -28041,7 +28046,7 @@ AnchorPoint: "Anchor-0" 467 0 basechar 0
 LayerCount: 2
 Fore
 Refer: 925 119 N 1 0 0 1 0 0 3
-Refer: 2446 769 N 1 0 0 1 177 0 2
+Refer: 2446 769 N 1 0 0 1 287 0 2
 Kerns2: 1044 2 "'kern' Horizontal Kerning lookup 0 per glyph data 1" 761 2 "'kern' Horizontal Kerning lookup 0 per glyph data 1" 745 -85 "'kern' Horizontal Kerning lookup 0 per glyph data 1"
 Substitution2: "'ss01' Style Set 1 lookup 52 subtable" wacute.ss01
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 48 subtable" wacute.sc
@@ -28050,7 +28055,7 @@ EndChar
 
 StartChar: wcircumflex
 Encoding: 373 373 927
-Width: 957
+Width: 1047
 GlyphClass: 2
 Flags: W
 AnchorPoint: "Anchor-3" 467 719 basechar 0
@@ -28058,7 +28063,7 @@ AnchorPoint: "Anchor-0" 467 0 basechar 0
 LayerCount: 2
 Fore
 Refer: 925 119 N 1 0 0 1 0 0 3
-Refer: 2452 770 N 1 0 0 1 177 0 2
+Refer: 2452 770 N 1 0 0 1 287 0 2
 Kerns2: 1044 2 "'kern' Horizontal Kerning lookup 0 per glyph data 1" 761 2 "'kern' Horizontal Kerning lookup 0 per glyph data 1" 745 -85 "'kern' Horizontal Kerning lookup 0 per glyph data 1"
 Substitution2: "'ss01' Style Set 1 lookup 52 subtable" wcircumflex.ss01
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 48 subtable" wcircumflex.sc
@@ -28067,7 +28072,7 @@ EndChar
 
 StartChar: wdieresis
 Encoding: 7813 7813 928
-Width: 957
+Width: 1047
 GlyphClass: 2
 Flags: W
 AnchorPoint: "Anchor-3" 467 706 basechar 0
@@ -28075,7 +28080,7 @@ AnchorPoint: "Anchor-0" 467 0 basechar 0
 LayerCount: 2
 Fore
 Refer: 925 119 N 1 0 0 1 0 0 3
-Refer: 2436 776 N 1 0 0 1 177 0 2
+Refer: 2436 776 N 1 0 0 1 287 0 2
 Kerns2: 1044 2 "'kern' Horizontal Kerning lookup 0 per glyph data 1" 761 2 "'kern' Horizontal Kerning lookup 0 per glyph data 1" 745 -85 "'kern' Horizontal Kerning lookup 0 per glyph data 1"
 Substitution2: "'ss01' Style Set 1 lookup 52 subtable" wdieresis.ss01
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 48 subtable" wdieresis.sc
@@ -28084,7 +28089,7 @@ EndChar
 
 StartChar: uni1E87
 Encoding: 7815 7815 929
-Width: 957
+Width: 1047
 GlyphClass: 2
 Flags: W
 AnchorPoint: "Anchor-3" 467 748 basechar 0
@@ -28092,7 +28097,7 @@ AnchorPoint: "Anchor-0" 467 0 basechar 0
 LayerCount: 2
 Fore
 Refer: 925 119 N 1 0 0 1 0 0 3
-Refer: 2441 775 N 1 0 0 1 177 0 2
+Refer: 2441 775 N 1 0 0 1 287 0 2
 Kerns2: 1044 2 "'kern' Horizontal Kerning lookup 0 per glyph data 1" 761 2 "'kern' Horizontal Kerning lookup 0 per glyph data 1" 745 -85 "'kern' Horizontal Kerning lookup 0 per glyph data 1"
 Substitution2: "'ss01' Style Set 1 lookup 52 subtable" uni1E87.ss01
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 48 subtable" uni1E87.sc
@@ -28101,7 +28106,7 @@ EndChar
 
 StartChar: uni1E89
 Encoding: 7817 7817 930
-Width: 957
+Width: 1047
 GlyphClass: 2
 Flags: W
 AnchorPoint: "Anchor-3" 467 538 basechar 0
@@ -28109,7 +28114,7 @@ AnchorPoint: "Anchor-0" 467 -167 basechar 0
 LayerCount: 2
 Fore
 Refer: 925 119 N 1 0 0 1 0 0 3
-Refer: 2441 775 N 1 0 0 1 177 -837 2
+Refer: 2441 775 N 1 0 0 1 287 -837 2
 Kerns2: 1044 2 "'kern' Horizontal Kerning lookup 0 per glyph data 1" 761 2 "'kern' Horizontal Kerning lookup 0 per glyph data 1" 745 -85 "'kern' Horizontal Kerning lookup 0 per glyph data 1"
 Substitution2: "'ss01' Style Set 1 lookup 52 subtable" uni1E89.ss01
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 48 subtable" uni1E89.sc
@@ -28118,7 +28123,7 @@ EndChar
 
 StartChar: wgrave
 Encoding: 7809 7809 931
-Width: 957
+Width: 1047
 GlyphClass: 2
 Flags: W
 AnchorPoint: "Anchor-3" 467 729 basechar 0
@@ -28126,7 +28131,7 @@ AnchorPoint: "Anchor-0" 467 0 basechar 0
 LayerCount: 2
 Fore
 Refer: 925 119 N 1 0 0 1 0 0 3
-Refer: 2443 768 N 1 0 0 1 177 0 2
+Refer: 2443 768 N 1 0 0 1 287 0 2
 Kerns2: 1044 2 "'kern' Horizontal Kerning lookup 0 per glyph data 1" 761 2 "'kern' Horizontal Kerning lookup 0 per glyph data 1" 745 -85 "'kern' Horizontal Kerning lookup 0 per glyph data 1"
 Substitution2: "'ss01' Style Set 1 lookup 52 subtable" wgrave.ss01
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 48 subtable" wgrave.sc
@@ -28176,7 +28181,7 @@ EndChar
 
 StartChar: uni1E98
 Encoding: 7832 7832 933
-Width: 957
+Width: 1047
 GlyphClass: 2
 Flags: W
 AnchorPoint: "Anchor-3" 467 796 basechar 0
@@ -28184,7 +28189,7 @@ AnchorPoint: "Anchor-0" 467 0 basechar 0
 LayerCount: 2
 Fore
 Refer: 925 119 N 1 0 0 1 0 0 3
-Refer: 2458 778 N 1 0 0 1 177 0 2
+Refer: 2458 778 N 1 0 0 1 287 0 2
 Kerns2: 1044 2 "'kern' Horizontal Kerning lookup 0 per glyph data 1" 761 2 "'kern' Horizontal Kerning lookup 0 per glyph data 1" 745 -85 "'kern' Horizontal Kerning lookup 0 per glyph data 1"
 Substitution2: "'ss01' Style Set 1 lookup 52 subtable" uni1E98.ss01
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 48 subtable" uni1E98.sc
