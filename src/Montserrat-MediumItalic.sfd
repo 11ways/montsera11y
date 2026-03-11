@@ -22,7 +22,7 @@ OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1624264748
-ModificationTime: 1773220971
+ModificationTime: 1773226762
 PfmFamily: 81
 TTFWeight: 500
 TTFWidth: 5
@@ -5587,7 +5587,7 @@ NameList: AGL For New Fonts
 DisplaySize: -96
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 280 8 2
+WinInfo: 96 8 2
 Grid
 -1000 305.899993896 m 0
  2000 305.899993896 l 1024
@@ -7094,7 +7094,7 @@ EndChar
 
 StartChar: Dcroat
 Encoding: 272 272 62
-Width: 834
+Width: 826
 GlyphClass: 2
 Flags: W
 AnchorPoint: "Anchor-3" 460 700 basechar 0
@@ -7294,7 +7294,7 @@ EndChar
 
 StartChar: Eth
 Encoding: 208 208 71
-Width: 834
+Width: 826
 GlyphClass: 2
 Flags: W
 AnchorPoint: "Anchor-3" 472 699 basechar 0
@@ -9910,7 +9910,7 @@ EndChar
 
 StartChar: Lslash
 Encoding: 321 321 182
-Width: 601
+Width: 594
 GlyphClass: 2
 Flags: W
 AnchorPoint: "Anchor-4" 533 700 basechar 0
@@ -12984,7 +12984,7 @@ EndChar
 
 StartChar: Uhorn
 Encoding: 431 431 309
-Width: 776
+Width: 768
 GlyphClass: 2
 Flags: W
 AnchorPoint: "Anchor-4" 736 700 basechar 0
@@ -13002,7 +13002,7 @@ EndChar
 
 StartChar: uni1EE8
 Encoding: 7912 7912 310
-Width: 776
+Width: 768
 GlyphClass: 2
 Flags: W
 AnchorPoint: "Anchor-4" 736 700 basechar 0
@@ -13021,7 +13021,7 @@ EndChar
 
 StartChar: uni1EF0
 Encoding: 7920 7920 311
-Width: 776
+Width: 768
 GlyphClass: 2
 Flags: W
 AnchorPoint: "Anchor-4" 736 700 basechar 0
@@ -13040,7 +13040,7 @@ EndChar
 
 StartChar: uni1EEA
 Encoding: 7914 7914 312
-Width: 776
+Width: 768
 GlyphClass: 2
 Flags: W
 AnchorPoint: "Anchor-4" 736 700 basechar 0
@@ -13059,7 +13059,7 @@ EndChar
 
 StartChar: uni1EEC
 Encoding: 7916 7916 313
-Width: 776
+Width: 768
 GlyphClass: 2
 Flags: W
 AnchorPoint: "Anchor-4" 736 700 basechar 0
@@ -13078,7 +13078,7 @@ EndChar
 
 StartChar: uni1EEE
 Encoding: 7918 7918 314
-Width: 776
+Width: 768
 GlyphClass: 2
 Flags: W
 AnchorPoint: "Anchor-4" 736 700 basechar 0
@@ -21083,7 +21083,7 @@ StartChar: eogonek
 Encoding: 281 281 676
 Width: 611
 GlyphClass: 2
-Flags: WO
+Flags: W
 AnchorPoint: "Anchor-3" 354 529 basechar 0
 LayerCount: 2
 Fore
@@ -23310,11 +23310,16 @@ AnchorPoint: "Anchor-0" 87 0 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-39 0 m 1,0,-1
- 187 742 l 1,1,-1
- 283 742 l 1,2,-1
- 135 0 l 1,3,-1
- 39 0 l 1,0,-1
+91 742 m 1,0,-1
+ 207 742 l 1,1,-1
+ 191 663 l 1,2,-1
+ 75 663 l 1,3,-1
+ 91 742 l 1,0,-1
+39 0 m 1,4,-1
+ 187 742 l 1,5,-1
+ 283 742 l 1,6,-1
+ 135 0 l 1,7,-1
+ 39 0 l 1,4,-1
 EndSplineSet
 Substitution2: "'ss01' Style Set 1 lookup 50 subtable" l.ss01
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 46 subtable" l.sc
@@ -23501,7 +23506,7 @@ EndChar
 
 StartChar: ldot
 Encoding: 320 320 765
-Width: 345
+Width: 279
 GlyphClass: 2
 Flags: W
 AnchorPoint: "Anchor-4" 372 742 basechar 0
@@ -23951,7 +23956,7 @@ EndChar
 
 StartChar: napostrophe
 Encoding: 329 329 782
-Width: 733
+Width: 681
 GlyphClass: 2
 Flags: W
 AnchorPoint: "Anchor-3" 448 530 basechar 0
@@ -27069,7 +27074,7 @@ EndChar
 
 StartChar: uhorn
 Encoding: 432 432 904
-Width: 685
+Width: 677
 GlyphClass: 2
 Flags: W
 AnchorPoint: "Anchor-4" 590 530 basechar 0
@@ -27087,7 +27092,7 @@ EndChar
 
 StartChar: uni1EE9
 Encoding: 7913 7913 905
-Width: 685
+Width: 677
 GlyphClass: 2
 Flags: W
 AnchorPoint: "Anchor-4" 590 530 basechar 0
@@ -27106,7 +27111,7 @@ EndChar
 
 StartChar: uni1EF1
 Encoding: 7921 7921 906
-Width: 685
+Width: 677
 GlyphClass: 2
 Flags: W
 AnchorPoint: "Anchor-4" 590 530 basechar 0
@@ -27125,7 +27130,7 @@ EndChar
 
 StartChar: uni1EEB
 Encoding: 7915 7915 907
-Width: 685
+Width: 677
 GlyphClass: 2
 Flags: W
 AnchorPoint: "Anchor-4" 590 530 basechar 0
@@ -27144,7 +27149,7 @@ EndChar
 
 StartChar: uni1EED
 Encoding: 7917 7917 908
-Width: 685
+Width: 677
 GlyphClass: 2
 Flags: W
 AnchorPoint: "Anchor-4" 590 530 basechar 0
@@ -27163,7 +27168,7 @@ EndChar
 
 StartChar: uni1EEF
 Encoding: 7919 7919 909
-Width: 685
+Width: 677
 GlyphClass: 2
 Flags: W
 AnchorPoint: "Anchor-4" 590 530 basechar 0
@@ -30436,7 +30441,7 @@ EndChar
 
 StartChar: ldot.ss01
 Encoding: 65850 -1 1059
-Width: 365
+Width: 321
 GlyphClass: 2
 Flags: W
 AnchorPoint: "Anchor-4" 370 742 basechar 0
@@ -39804,7 +39809,7 @@ EndChar
 
 StartChar: uhorn.sc
 Encoding: 66271 -1 1482
-Width: 688
+Width: 680
 GlyphClass: 2
 Flags: W
 AnchorPoint: "Anchor-4" 618 568 basechar 0
@@ -39821,7 +39826,7 @@ EndChar
 
 StartChar: uni1EE9.sc
 Encoding: 66272 -1 1483
-Width: 688
+Width: 680
 GlyphClass: 2
 Flags: W
 AnchorPoint: "Anchor-4" 618 568 basechar 0
@@ -39839,7 +39844,7 @@ EndChar
 
 StartChar: uni1EF1.sc
 Encoding: 66273 -1 1484
-Width: 688
+Width: 680
 GlyphClass: 2
 Flags: W
 AnchorPoint: "Anchor-4" 618 568 basechar 0
@@ -39857,7 +39862,7 @@ EndChar
 
 StartChar: uni1EEB.sc
 Encoding: 66274 -1 1485
-Width: 688
+Width: 680
 GlyphClass: 2
 Flags: W
 AnchorPoint: "Anchor-4" 618 568 basechar 0
@@ -39875,7 +39880,7 @@ EndChar
 
 StartChar: uni1EED.sc
 Encoding: 66275 -1 1486
-Width: 688
+Width: 680
 GlyphClass: 2
 Flags: W
 AnchorPoint: "Anchor-4" 618 568 basechar 0
@@ -39893,7 +39898,7 @@ EndChar
 
 StartChar: uni1EEF.sc
 Encoding: 66276 -1 1487
-Width: 688
+Width: 680
 GlyphClass: 2
 Flags: W
 AnchorPoint: "Anchor-4" 618 568 basechar 0
@@ -44050,7 +44055,7 @@ EndChar
 
 StartChar: uhorn.sc.ss01
 Encoding: 66490 -1 1701
-Width: 695
+Width: 686
 GlyphClass: 2
 Flags: W
 AnchorPoint: "Anchor-4" 608 568 basechar 0
@@ -44065,7 +44070,7 @@ EndChar
 
 StartChar: uni1EE9.sc.ss01
 Encoding: 66491 -1 1702
-Width: 695
+Width: 686
 GlyphClass: 2
 Flags: W
 AnchorPoint: "Anchor-4" 608 568 basechar 0
@@ -44081,7 +44086,7 @@ EndChar
 
 StartChar: uni1EF1.sc.ss01
 Encoding: 66492 -1 1703
-Width: 695
+Width: 686
 GlyphClass: 2
 Flags: W
 AnchorPoint: "Anchor-4" 608 568 basechar 0
@@ -44097,7 +44102,7 @@ EndChar
 
 StartChar: uni1EEB.sc.ss01
 Encoding: 66493 -1 1704
-Width: 695
+Width: 686
 GlyphClass: 2
 Flags: W
 AnchorPoint: "Anchor-4" 608 568 basechar 0
@@ -44113,7 +44118,7 @@ EndChar
 
 StartChar: uni1EED.sc.ss01
 Encoding: 66494 -1 1705
-Width: 695
+Width: 686
 GlyphClass: 2
 Flags: W
 AnchorPoint: "Anchor-4" 608 568 basechar 0
@@ -44129,7 +44134,7 @@ EndChar
 
 StartChar: uni1EEF.sc.ss01
 Encoding: 66495 -1 1706
-Width: 695
+Width: 686
 GlyphClass: 2
 Flags: W
 AnchorPoint: "Anchor-4" 608 568 basechar 0
