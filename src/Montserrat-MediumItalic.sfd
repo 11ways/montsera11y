@@ -22,7 +22,7 @@ OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1624264748
-ModificationTime: 1773238194
+ModificationTime: 1775132230
 PfmFamily: 81
 TTFWeight: 500
 TTFWidth: 5
@@ -27556,32 +27556,34 @@ Width: 991
 GlyphClass: 2
 Flags: W
 AnchorPoint: "Anchor-3" 583 530 basechar 0
-AnchorPoint: "Anchor-0" 485 0 basechar 0
+AnchorPoint: "Anchor-0" 441 1 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-71 530 m 1,0,-1
- 167 530 l 1,1,-1
- 151 451 l 1,2,-1
- 55 451 l 1,3,-1
- 71 530 l 1,0,-1
-237 0 m 1,4,-1
- 136 530 l 1,5,-1
- 223 530 l 1,6,-1
- 312 50 l 1,7,-1
- 267 50 l 1,8,-1
- 541 530 l 1,9,-1
- 623 530 l 1,10,-1
- 714 50 l 1,11,-1
- 669 50 l 1,12,-1
- 940 530 l 1,13,-1
- 1031 530 l 1,14,-1
- 734 0 l 1,15,-1
- 640 0 l 1,16,-1
- 551 438 l 1,17,-1
- 580 438 l 1,18,-1
- 329 0 l 1,19,-1
- 237 0 l 1,4,-1
+276 -5 m 0,0,1
+ 32.2731638335 -4.00111952391 32.2731638335 -4.00111952391 82 252 c 2,2,-1
+ 136 530 l 1,3,-1
+ 232 530 l 1,4,-1
+ 176 251 l 2,5,6
+ 142 81 142 81 294 81 c 0,7,8
+ 438.551280893 81 438.551280893 81 472 248.900390625 c 2,9,-1
+ 528 530 l 1,10,-1
+ 624 530 l 1,11,-1
+ 568 247 l 2,12,13
+ 535 81 535 81 682 85.5 c 128,-1,15
+ 829 90 829 90 862 250 c 2,16,-1
+ 919 530 l 1,17,-1
+ 1015 530 l 1,18,-1
+ 958 246 l 1,19,20
+ 914 -4 914 -4 664 -5 c 0,21,22
+ 422 -6 422 -6 474 261.80078125 c 1,23,-1
+ 569 261.900390625 l 1,24,25
+ 516 -5 516 -5 276 -5 c 0,0,1
+71 530 m 1,26,-1
+ 167 530 l 1,27,-1
+ 151 451 l 1,28,-1
+ 55 451 l 1,29,-1
+ 71 530 l 1,26,-1
 EndSplineSet
 Kerns2: 1055 -10 "'kern' Horizontal Kerning lookup 0 per glyph data 1" 761 11 "'kern' Horizontal Kerning lookup 0 per glyph data 1" 745 -67 "'kern' Horizontal Kerning lookup 0 per glyph data 1"
 Substitution2: "'ss01' Style Set 1 lookup 50 subtable" w.ss01
