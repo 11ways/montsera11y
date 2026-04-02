@@ -22,7 +22,7 @@ OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1624264748
-ModificationTime: 1775130760
+ModificationTime: 1775135762
 PfmFamily: 81
 TTFWeight: 500
 TTFWidth: 5
@@ -27961,9 +27961,9 @@ EndChar
 
 StartChar: w
 Encoding: 119 119 925
-Width: 979
+Width: 999
 GlyphClass: 2
-Flags: WO
+Flags: W
 AnchorPoint: "Anchor-3" 527 530 basechar 0
 AnchorPoint: "Anchor-0" 487 -1 basechar 0
 LayerCount: 2
@@ -28002,7 +28002,7 @@ EndChar
 
 StartChar: wacute
 Encoding: 7811 7811 926
-Width: 979
+Width: 999
 GlyphClass: 2
 Flags: W
 AnchorPoint: "Anchor-3" 447 701 basechar 0
@@ -28019,7 +28019,7 @@ EndChar
 
 StartChar: wcircumflex
 Encoding: 373 373 927
-Width: 979
+Width: 999
 GlyphClass: 2
 Flags: W
 AnchorPoint: "Anchor-3" 447 691 basechar 0
@@ -28036,7 +28036,7 @@ EndChar
 
 StartChar: wdieresis
 Encoding: 7813 7813 928
-Width: 979
+Width: 999
 GlyphClass: 2
 Flags: W
 AnchorPoint: "Anchor-3" 447 675 basechar 0
@@ -28053,7 +28053,7 @@ EndChar
 
 StartChar: uni1E87
 Encoding: 7815 7815 929
-Width: 979
+Width: 999
 GlyphClass: 2
 Flags: W
 AnchorPoint: "Anchor-3" 447 700 basechar 0
@@ -28070,7 +28070,7 @@ EndChar
 
 StartChar: uni1E89
 Encoding: 7817 7817 930
-Width: 979
+Width: 999
 GlyphClass: 2
 Flags: W
 AnchorPoint: "Anchor-3" 447 530 basechar 0
@@ -28087,7 +28087,7 @@ EndChar
 
 StartChar: wgrave
 Encoding: 7809 7809 931
-Width: 979
+Width: 999
 GlyphClass: 2
 Flags: W
 AnchorPoint: "Anchor-3" 447 701 basechar 0
@@ -28145,7 +28145,7 @@ EndChar
 
 StartChar: uni1E98
 Encoding: 7832 7832 933
-Width: 979
+Width: 999
 GlyphClass: 2
 Flags: W
 AnchorPoint: "Anchor-3" 447 765 basechar 0

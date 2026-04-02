@@ -22,7 +22,7 @@ OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1624264748
-ModificationTime: 1775132230
+ModificationTime: 1775135739
 PfmFamily: 81
 TTFWeight: 500
 TTFWidth: 5
@@ -27552,7 +27552,7 @@ EndChar
 
 StartChar: w
 Encoding: 119 119 925
-Width: 991
+Width: 1001
 GlyphClass: 2
 Flags: W
 AnchorPoint: "Anchor-3" 583 530 basechar 0
@@ -27570,20 +27570,20 @@ SplineSet
  528 530 l 1,10,-1
  624 530 l 1,11,-1
  568 247 l 2,12,13
- 535 81 535 81 682 85.5 c 128,-1,15
- 829 90 829 90 862 250 c 2,16,-1
- 919 530 l 1,17,-1
- 1015 530 l 1,18,-1
- 958 246 l 1,19,20
- 914 -4 914 -4 664 -5 c 0,21,22
- 422 -6 422 -6 474 261.80078125 c 1,23,-1
- 569 261.900390625 l 1,24,25
+ 535 81 535 81 682 85.5 c 128,-1,14
+ 829 90 829 90 862 250 c 2,15,-1
+ 919 530 l 1,16,-1
+ 1015 530 l 1,17,-1
+ 958 246 l 1,18,19
+ 914 -4 914 -4 664 -5 c 0,20,21
+ 422 -6 422 -6 474 261.80078125 c 1,22,-1
+ 569 261.900390625 l 1,23,24
  516 -5 516 -5 276 -5 c 0,0,1
-71 530 m 1,26,-1
- 167 530 l 1,27,-1
- 151 451 l 1,28,-1
- 55 451 l 1,29,-1
- 71 530 l 1,26,-1
+71 530 m 1,25,-1
+ 167 530 l 1,26,-1
+ 151 451 l 1,27,-1
+ 55 451 l 1,28,-1
+ 71 530 l 1,25,-1
 EndSplineSet
 Kerns2: 1055 -10 "'kern' Horizontal Kerning lookup 0 per glyph data 1" 761 11 "'kern' Horizontal Kerning lookup 0 per glyph data 1" 745 -67 "'kern' Horizontal Kerning lookup 0 per glyph data 1"
 Substitution2: "'ss01' Style Set 1 lookup 50 subtable" w.ss01
@@ -27593,7 +27593,7 @@ EndChar
 
 StartChar: wacute
 Encoding: 7811 7811 926
-Width: 991
+Width: 1001
 GlyphClass: 2
 Flags: W
 AnchorPoint: "Anchor-3" 537 701 basechar 0
@@ -27610,7 +27610,7 @@ EndChar
 
 StartChar: wcircumflex
 Encoding: 373 373 927
-Width: 991
+Width: 1001
 GlyphClass: 2
 Flags: W
 AnchorPoint: "Anchor-3" 535 691 basechar 0
@@ -27627,7 +27627,7 @@ EndChar
 
 StartChar: wdieresis
 Encoding: 7813 7813 928
-Width: 991
+Width: 1001
 GlyphClass: 2
 Flags: W
 AnchorPoint: "Anchor-3" 532 675 basechar 0
@@ -27644,7 +27644,7 @@ EndChar
 
 StartChar: uni1E87
 Encoding: 7815 7815 929
-Width: 991
+Width: 1001
 GlyphClass: 2
 Flags: W
 AnchorPoint: "Anchor-3" 536 700 basechar 0
@@ -27661,7 +27661,7 @@ EndChar
 
 StartChar: uni1E89
 Encoding: 7817 7817 930
-Width: 991
+Width: 1001
 GlyphClass: 2
 Flags: W
 AnchorPoint: "Anchor-3" 503 530 basechar 0
@@ -27678,7 +27678,7 @@ EndChar
 
 StartChar: wgrave
 Encoding: 7809 7809 931
-Width: 991
+Width: 1001
 GlyphClass: 2
 Flags: W
 AnchorPoint: "Anchor-3" 537 701 basechar 0
@@ -27735,7 +27735,7 @@ EndChar
 
 StartChar: uni1E98
 Encoding: 7832 7832 933
-Width: 991
+Width: 1001
 GlyphClass: 2
 Flags: W
 AnchorPoint: "Anchor-3" 550 765 basechar 0
