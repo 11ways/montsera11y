@@ -13,9 +13,9 @@ Vier karakters worden aangepast om de leesbaarheid te verhogen:
 | Karakter | Aanpassing | Doel |
 |----------|-----------|------|
 | `e` | Schuine crossbar | Beter onderscheid, meer open aperture |
-| `l` | Serif linksboven | Onderscheid van `I` en `1` |
+| `l` | Serif linksboven, ronding onderaan | Onderscheid van `I` en `1` |
 | `I` | Bilaterale schreven boven en onder | Onderscheid van `l` en `1` |
-| `w` | Serif linksboven | Consistent met `l`-stijl |
+| `w` | Serif linksboven, roundingen onderaan | Consistent met `l`-stijl |
 
 ## Gewichten
 
