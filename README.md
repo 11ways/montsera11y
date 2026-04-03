@@ -1,6 +1,6 @@
 # Montsera11y
 
-Een toegankelijkere versie van het [Montserrat](https://github.com/JulietaUla/Montserrat)-lettertype, gemaakt door [Eleven Ways](https://www.elevenways.be).
+Een toegankelijkere versie van het [Montserrat](https://github.com/JulietaUla/Montserrat)-lettertype, gemaakt door [Eleven Ways](https://www.elevenways.be). Deze variant maakt gebruik makend van alternates, met tweaks en toevoegingen door Eleven Ways.
 
 De naam **Montsera11y** combineert Montserrat, **a11y** (accessibility) en **11** (Eleven Ways).
 

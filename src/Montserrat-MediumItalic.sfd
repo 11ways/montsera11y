@@ -22,7 +22,7 @@ OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1624264748
-ModificationTime: 1775135739
+ModificationTime: 1775221604
 PfmFamily: 81
 TTFWeight: 500
 TTFWidth: 5
@@ -23310,9 +23310,9 @@ EndChar
 
 StartChar: l
 Encoding: 108 108 757
-Width: 299
+Width: 339
 GlyphClass: 2
-Flags: W
+Flags: WO
 AnchorPoint: "Anchor-4" 382 742 basechar 0
 AnchorPoint: "Anchor-3" 242 726 basechar 0
 AnchorPoint: "Anchor-1" 169 348 basechar 0
@@ -23320,16 +23320,20 @@ AnchorPoint: "Anchor-0" 97 0 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-101 742 m 1,0,-1
- 293 742 l 1,1,-1
- 201 663 l 1,2,-1
- 85 663 l 1,3,-1
- 101 742 l 1,0,-1
-49 0 m 1,4,-1
- 193 723 l 1,5,-1
- 293 742 l 1,6,-1
- 145 0 l 1,7,-1
- 49 0 l 1,4,-1
+181.021582734 663 m 1,0,-1
+ 82 167 l 2,1,2
+ 72 116 72 116 86.5 75 c 0,3,4
+ 101 36 101 36 135.5 15 c 128,-1,5
+ 170 -6 170 -6 218 -6 c 0,6,7
+ 242 -6 242 -6 256.787109375 0.796875 c 1,8,-1
+ 272.635742188 82.3310546875 l 1,9,10
+ 259 75 259 75 236 75 c 0,11,12
+ 202 75 202 75 187 100.5 c 0,13,14
+ 170.882955377 128.201170446 170.882955377 128.201170446 179 169 c 2,15,-1
+ 293 742 l 1,16,-1
+ 101 742 l 1,17,-1
+ 85 663 l 1,18,-1
+ 181.021582734 663 l 1,0,-1
 EndSplineSet
 Substitution2: "'ss01' Style Set 1 lookup 50 subtable" l.ss01
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 46 subtable" l.sc
@@ -23338,7 +23342,7 @@ EndChar
 
 StartChar: lacute
 Encoding: 314 314 758
-Width: 299
+Width: 339
 GlyphClass: 2
 Flags: W
 AnchorPoint: "Anchor-4" 372 742 basechar 0
@@ -23461,7 +23465,7 @@ EndChar
 
 StartChar: lcaron
 Encoding: 318 318 762
-Width: 299
+Width: 339
 GlyphClass: 2
 Flags: W
 AnchorPoint: "Anchor-4" 372 742 basechar 0
@@ -23480,7 +23484,7 @@ EndChar
 
 StartChar: uni1E3D
 Encoding: 7741 7741 763
-Width: 299
+Width: 339
 GlyphClass: 2
 Flags: W
 AnchorPoint: "Anchor-4" 372 742 basechar 0
@@ -23498,7 +23502,7 @@ EndChar
 
 StartChar: uni013C
 Encoding: 316 316 764
-Width: 299
+Width: 339
 GlyphClass: 2
 Flags: W
 AnchorPoint: "Anchor-4" 372 742 basechar 0
@@ -23516,7 +23520,7 @@ EndChar
 
 StartChar: ldot
 Encoding: 320 320 765
-Width: 299
+Width: 339
 GlyphClass: 2
 Flags: W
 AnchorPoint: "Anchor-4" 372 742 basechar 0
@@ -23535,7 +23539,7 @@ EndChar
 
 StartChar: uni1E37
 Encoding: 7735 7735 766
-Width: 299
+Width: 339
 GlyphClass: 2
 Flags: W
 AnchorPoint: "Anchor-4" 372 742 basechar 0
@@ -23553,7 +23557,7 @@ EndChar
 
 StartChar: uni1E39
 Encoding: 7737 7737 767
-Width: 299
+Width: 339
 GlyphClass: 2
 Flags: W
 AnchorPoint: "Anchor-4" 372 742 basechar 0
@@ -23623,7 +23627,7 @@ EndChar
 
 StartChar: uni1E3B
 Encoding: 7739 7739 770
-Width: 299
+Width: 339
 GlyphClass: 2
 Flags: W
 AnchorPoint: "Anchor-4" 372 742 basechar 0
@@ -26337,20 +26341,20 @@ AnchorPoint: "Anchor-0" 210 0 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-231 -6 m 0,0,1
- 183 -6 183 -6 148.5 15 c 128,-1,2
- 114 36 114 36 99.5 75 c 128,-1,3
- 85 114 85 114 95 167 c 2,4,-1
+231 -6 m 4,0,1
+ 183 -6 183 -6 148.5 15 c 132,-1,2
+ 114 36 114 36 99.5 75 c 132,-1,3
+ 85 114 85 114 95 167 c 6,4,-1
  191 646 l 1,5,-1
  287 646 l 1,6,-1
- 191 169 l 2,7,8
- 184 126 184 126 199.5 100.5 c 128,-1,9
- 215 75 215 75 258 75 c 0,10,11
- 278 75 278 75 298 81.5 c 128,-1,12
- 318 88 318 88 334 100 c 1,13,-1
- 354 27 l 1,14,15
- 327 8 327 8 294.5 1 c 128,-1,16
- 262 -6 262 -6 231 -6 c 0,0,1
+ 191 169 l 6,7,8
+ 184 126 184 126 199.5 100.5 c 132,-1,9
+ 215 75 215 75 258 75 c 4,10,11
+ 278 75 278 75 298 81.5 c 132,-1,12
+ 318 88 318 88 334 100 c 5,13,-1
+ 354 27 l 5,14,15
+ 327 8 327 8 294.5 1 c 132,-1,16
+ 262 -6 262 -6 231 -6 c 4,0,1
 62 451 m 1,17,-1
  77 530 l 1,18,-1
  416 530 l 1,19,-1
