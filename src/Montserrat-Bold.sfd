@@ -22,7 +22,7 @@ OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1624264748
-ModificationTime: 1775133909
+ModificationTime: 1775220578
 PfmFamily: 81
 TTFWeight: 700
 TTFWidth: 5
@@ -5595,11 +5595,13 @@ OtfFeatName: 'ss01' 1033 "Alternate"
 Encoding: UnicodeBmp
 UnicodeInterp: none
 NameList: AGL For New Fonts
-DisplaySize: -72
+DisplaySize: -96
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 90 10 3
+WinInfo: 96 8 3
 Grid
+414 1300 m 0
+ 414 -700 l 1024
 318 1300 m 0
  318 -700 l 1024
 -1000 412 m 0
@@ -23581,28 +23583,30 @@ EndChar
 
 StartChar: l
 Encoding: 108 108 757
-Width: 351
+Width: 401
 GlyphClass: 2
-Flags: W
-HStem: 0 21G<102 258> 722 20G<102 258>
-VStem: 102 156<0 742>
-AnchorPoint: "Anchor-4" 338 742 basechar 0
-AnchorPoint: "Anchor-3" 180 729 basechar 0
-AnchorPoint: "Anchor-1" 180 354 basechar 0
-AnchorPoint: "Anchor-0" 180 0 basechar 0
+Flags: WO
+HStem: 0 21G<106 262> 722 20G<106 262>
+VStem: 106 156<0 742>
+AnchorPoint: "Anchor-4" 342 742 basechar 0
+AnchorPoint: "Anchor-3" 184 729 basechar 0
+AnchorPoint: "Anchor-1" 184 354 basechar 0
+AnchorPoint: "Anchor-0" 184 0 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-0 742 m 1,0,-1
- 258 742 l 1,1,-1
- 233 620 l 1,2,-1
- 0 620 l 1,3,-1
- 0 742 l 1,0,-1
-102 0 m 1,4,-1
- 102 730 l 1,5,-1
- 258 742 l 1,6,-1
- 258 0 l 1,7,-1
- 102 0 l 1,4,-1
+367.877929688 5.4619140625 m 1,0,1
+ 343 -8 343 -8 305 -8 c 0,2,3
+ 106 -8 106 -8 106 175 c 2,4,-1
+ 106 620 l 1,5,-1
+ 24 620 l 1,6,-1
+ 24 742 l 1,7,-1
+ 262 742 l 1,8,-1
+ 262 620 l 1,9,-1
+ 262 175 l 2,10,11
+ 262 116 262 116 320 116 c 0,12,13
+ 342 116 342 116 361.484375 127.458007812 c 1,14,-1
+ 367.877929688 5.4619140625 l 1,0,1
 EndSplineSet
 Substitution2: "'ss01' Style Set 1 lookup 52 subtable" l.ss01
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 48 subtable" l.sc
@@ -23611,7 +23615,7 @@ EndChar
 
 StartChar: lacute
 Encoding: 314 314 758
-Width: 351
+Width: 401
 GlyphClass: 2
 Flags: W
 AnchorPoint: "Anchor-4" 308 742 basechar 0
@@ -23621,7 +23625,7 @@ AnchorPoint: "Anchor-0" 150 0 basechar 0
 LayerCount: 2
 Fore
 Refer: 757 108 N 1 0 0 1 0 0 3
-Refer: 2446 769 N 1 0 0 1 -40 191 2
+Refer: 2446 769 N 1 0 0 1 -36 191 2
 Substitution2: "'ss01' Style Set 1 lookup 52 subtable" lacute.ss01
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 48 subtable" lacute.sc
 AlternateSubs2: "'aalt' Access All Alternates lookup 3 subtable" lacute.sc lacute.ss01
@@ -23740,7 +23744,7 @@ EndChar
 
 StartChar: lcaron
 Encoding: 318 318 762
-Width: 351
+Width: 401
 GlyphClass: 2
 Flags: W
 AnchorPoint: "Anchor-4" 308 742 basechar 0
@@ -23750,7 +23754,7 @@ AnchorPoint: "Anchor-0" 150 0 basechar 0
 LayerCount: 2
 Fore
 Refer: 757 108 N 1 0 0 1 0 0 3
-Refer: 2451 -1 N 1 0 0 1 118 42 2
+Refer: 2451 -1 N 1 0 0 1 122 42 2
 Kerns2: 719 125 "'kern' Horizontal Kerning lookup 0 per glyph data 1"
 Substitution2: "'ss01' Style Set 1 lookup 52 subtable" lcaron.ss01
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 48 subtable" lcaron.sc
@@ -23759,7 +23763,7 @@ EndChar
 
 StartChar: uni1E3D
 Encoding: 7741 7741 763
-Width: 351
+Width: 401
 GlyphClass: 2
 Flags: W
 AnchorPoint: "Anchor-4" 308 742 basechar 0
@@ -23769,7 +23773,7 @@ AnchorPoint: "Anchor-0" 150 -173 basechar 0
 LayerCount: 2
 Fore
 Refer: 757 108 N 1 0 0 1 0 0 3
-Refer: 2452 770 N 1 0 0 1 -40 -815 2
+Refer: 2452 770 N 1 0 0 1 -36 -815 2
 Substitution2: "'ss01' Style Set 1 lookup 52 subtable" uni1E3D.ss01
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 48 subtable" uni1E3D.sc
 AlternateSubs2: "'aalt' Access All Alternates lookup 3 subtable" uni1E3D.sc uni1E3D.ss01
@@ -23777,7 +23781,7 @@ EndChar
 
 StartChar: uni013C
 Encoding: 316 316 764
-Width: 351
+Width: 401
 GlyphClass: 2
 Flags: W
 AnchorPoint: "Anchor-4" 308 742 basechar 0
@@ -23787,7 +23791,7 @@ AnchorPoint: "Anchor-0" 150 -167 basechar 0
 LayerCount: 2
 Fore
 Refer: 757 108 N 1 0 0 1 0 0 3
-Refer: 2484 806 N 1 0 0 1 -40 0 2
+Refer: 2484 806 N 1 0 0 1 -36 0 2
 Substitution2: "'ss01' Style Set 1 lookup 52 subtable" uni013C.ss01
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 48 subtable" uni013C.sc
 AlternateSubs2: "'aalt' Access All Alternates lookup 3 subtable" uni013C.sc uni013C.ss01
@@ -23795,7 +23799,7 @@ EndChar
 
 StartChar: ldot
 Encoding: 320 320 765
-Width: 475
+Width: 401
 GlyphClass: 2
 Flags: W
 AnchorPoint: "Anchor-4" 318 742 basechar 0
@@ -23805,7 +23809,7 @@ AnchorPoint: "Anchor-0" 160 0 basechar 0
 LayerCount: 2
 Fore
 Refer: 757 108 N 1 0 0 1 10 0 2
-Refer: 2251 -1 N 1 0 0 1 308 0 2
+Refer: 2251 -1 N 1 0 0 1 169 0 2
 Substitution2: "'ss01' Style Set 1 lookup 52 subtable" ldot.ss01
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 48 subtable" ldot.sc
 MultipleSubs2: "'ccmp' Glyph Composition/Decomposition lookup 12 subtable" l periodcentered.loclCAT
@@ -23814,7 +23818,7 @@ EndChar
 
 StartChar: uni1E37
 Encoding: 7735 7735 766
-Width: 351
+Width: 401
 GlyphClass: 2
 Flags: W
 AnchorPoint: "Anchor-4" 308 742 basechar 0
@@ -23824,7 +23828,7 @@ AnchorPoint: "Anchor-0" 150 -167 basechar 0
 LayerCount: 2
 Fore
 Refer: 757 108 N 1 0 0 1 0 0 3
-Refer: 2441 775 N 1 0 0 1 -40 -837 2
+Refer: 2441 775 N 1 0 0 1 -36 -837 2
 Substitution2: "'ss01' Style Set 1 lookup 52 subtable" uni1E37.ss01
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 48 subtable" uni1E37.sc
 AlternateSubs2: "'aalt' Access All Alternates lookup 3 subtable" uni1E37.sc uni1E37.ss01
@@ -23832,7 +23836,7 @@ EndChar
 
 StartChar: uni1E39
 Encoding: 7737 7737 767
-Width: 351
+Width: 401
 GlyphClass: 2
 Flags: W
 AnchorPoint: "Anchor-4" 308 742 basechar 0
@@ -23842,8 +23846,8 @@ AnchorPoint: "Anchor-0" 150 -167 basechar 0
 LayerCount: 2
 Fore
 Refer: 757 108 N 1 0 0 1 0 0 3
-Refer: 2441 775 N 1 0 0 1 -40 -837 2
-Refer: 2465 772 N 1 0 0 1 -40 179 2
+Refer: 2441 775 N 1 0 0 1 -36 -837 2
+Refer: 2465 772 N 1 0 0 1 -36 179 2
 Substitution2: "'ss01' Style Set 1 lookup 52 subtable" uni1E39.ss01
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 48 subtable" uni1E39.sc
 AlternateSubs2: "'aalt' Access All Alternates lookup 3 subtable" uni1E39.sc uni1E39.ss01
@@ -23988,7 +23992,7 @@ EndChar
 
 StartChar: lslash
 Encoding: 322 322 773
-Width: 351
+Width: 401
 GlyphClass: 2
 Flags: W
 AnchorPoint: "Anchor-4" 321 742 basechar 0
@@ -23998,7 +24002,7 @@ AnchorPoint: "Anchor-0" 164 0 basechar 0
 LayerCount: 2
 Fore
 Refer: 757 108 N 1 0 0 1 13 0 3
-Refer: 2497 823 N 1 0 0 1 24 -39 2
+Refer: 2497 823 N 1 0 0 1 28 -39 2
 Kerns2: 949 12 "'kern' Horizontal Kerning lookup 0 per glyph data 1" 948 12 "'kern' Horizontal Kerning lookup 0 per glyph data 1" 947 12 "'kern' Horizontal Kerning lookup 0 per glyph data 1" 946 12 "'kern' Horizontal Kerning lookup 0 per glyph data 1" 945 12 "'kern' Horizontal Kerning lookup 0 per glyph data 1" 944 12 "'kern' Horizontal Kerning lookup 0 per glyph data 1" 943 12 "'kern' Horizontal Kerning lookup 0 per glyph data 1" 942 12 "'kern' Horizontal Kerning lookup 0 per glyph data 1" 941 12 "'kern' Horizontal Kerning lookup 0 per glyph data 1" 940 12 "'kern' Horizontal Kerning lookup 0 per glyph data 1" 939 12 "'kern' Horizontal Kerning lookup 0 per glyph data 1" 938 12 "'kern' Horizontal Kerning lookup 0 per glyph data 1" 937 12 "'kern' Horizontal Kerning lookup 0 per glyph data 1"
 Substitution2: "'ss01' Style Set 1 lookup 52 subtable" lslash.ss01
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 48 subtable" lslash.sc
