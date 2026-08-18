@@ -16,6 +16,8 @@ Vier karakters worden aangepast om de leesbaarheid te verhogen:
 | `l` | Serif linksboven, ronding onderaan | Onderscheid van `I` en `1` |
 | `I` | Bilaterale schreven boven en onder | Onderscheid van `l` en `1` |
 | `w` | Serif linksboven, roundingen onderaan | Consistent met `l`-stijl |
+| `b` | Rounding bovenaan | Onderscheid van `d` |
+| `q` | Rounding onderaan | Onderscheid van `p` |
 
 ## Gewichten
 
