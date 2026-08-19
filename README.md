@@ -52,6 +52,10 @@ test.html           ← Visuele testpagina
 
 ### Fonts genereren na bewerking in FontForge
 
+- In FontForge, aanpassen van de files uit de `/src` folder
+- In FontForge, manueel genereren van TTF files naar de `/working` folder
+- Python script om te exporteren naar de `/output` folder
+
 ```bash
 python3 scripts/rename_font.py working/ output/
 python3 scripts/verify_font.py output/ttf/
