@@ -16,6 +16,8 @@ Vier karakters worden aangepast om de leesbaarheid te verhogen:
 | `l` | Serif linksboven, ronding onderaan | Onderscheid van `I` en `1` |
 | `I` | Bilaterale schreven boven en onder | Onderscheid van `l` en `1` |
 | `w` | Serif linksboven, roundingen onderaan | Consistent met `l`-stijl |
+| `b` | Rounding bovenaan | Onderscheid van `d` |
+| `q` | Rounding onderaan | Onderscheid van `p` |
 
 ## Gewichten
 
@@ -49,6 +51,10 @@ test.html           ← Visuele testpagina
 ## Gebruik
 
 ### Fonts genereren na bewerking in FontForge
+
+- In FontForge, aanpassen van de files uit de `/src` folder
+- In FontForge, manueel genereren van TTF files naar de `/working` folder
+- Python script om te exporteren naar de `/output` folder
 
 ```bash
 python3 scripts/rename_font.py working/ output/

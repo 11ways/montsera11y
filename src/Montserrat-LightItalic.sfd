@@ -22,7 +22,7 @@ OS2Version: 4
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1624264748
-ModificationTime: 1775222906
+ModificationTime: 1787066954
 PfmFamily: 81
 TTFWeight: 300
 TTFWidth: 5
@@ -5587,7 +5587,7 @@ NameList: AGL For New Fonts
 DisplaySize: -96
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 104 8 2
+WinInfo: 112 8 2
 Grid
 -1000 284 m 0
  2000 284 l 1024
@@ -20037,42 +20037,51 @@ AnchorPoint: "Anchor-0" 294 0 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-53 0 m 1,0,-1
- 201 742 l 1,1,-1
- 251 742 l 1,2,-1
- 175 358 l 1,3,-1
- 145 268 l 1,4,-1
- 137 177 l 1,5,-1
- 102 0 l 1,6,-1
- 53 0 l 1,0,-1
-335 -4 m 0,7,8
- 267 -4 267 -4 218.5 20.5 c 128,-1,9
- 170 45 170 45 145 91.5 c 128,-1,10
- 120 138 120 138 119 204 c 0,11,12
- 119 274 119 274 139 333 c 128,-1,13
- 159 392 159 392 197 435 c 128,-1,14
- 235 478 235 478 287.5 502 c 128,-1,15
- 340 526 340 526 405 526 c 0,16,17
- 473 526 473 526 523.5 500 c 128,-1,18
- 574 474 574 474 602.5 425 c 128,-1,19
- 631 376 631 376 631 309 c 0,20,21
- 631 241 631 241 609 184 c 128,-1,22
- 587 127 587 127 547.5 85 c 128,-1,23
- 508 43 508 43 454 19.5 c 128,-1,24
- 400 -4 400 -4 335 -4 c 0,7,8
-336 41 m 0,25,26
- 407 41 407 41 462 75 c 128,-1,27
- 517 109 517 109 548.5 169.5 c 128,-1,28
- 580 230 580 230 580 306 c 0,29,30
- 580 390 580 390 531.5 435.5 c 128,-1,31
- 483 481 483 481 395 481 c 0,32,33
- 325 481 325 481 269.5 447 c 128,-1,34
- 214 413 214 413 182 353 c 128,-1,35
- 150 293 150 293 150 216 c 0,36,37
- 150 133 150 133 199 87 c 128,-1,38
- 248 41 248 41 336 41 c 0,25,26
+225.104247104 611.158301158 m 1,0,1
+ 225.104247104 611.158301158 225.104247104 611.158301158 175 358 c 1,2,-1
+ 145 268 l 1,3,-1
+ 137 177 l 1,4,-1
+ 102 0 l 1,5,-1
+ 53 0 l 1,6,-1
+ 181.645507812 642.041015625 l 1,7,8
+ 191.725585938 688.821289062 191.725585938 688.821289062 215.135742188 715.8203125 c 128,-1,9
+ 238.546875 742.819335938 238.546875 742.819335938 272.734375 747.861328125 c 128,-1,10
+ 306.922851562 752.904296875 306.922851562 752.904296875 346.50390625 736.102539062 c 0,11,12
+ 373.19921875 724.771484375 373.19921875 724.771484375 397.227539062 705.880859375 c 0,13,14
+ 398.31640625 705.025390625 398.31640625 705.025390625 399.384765625 704.154296875 c 2,15,-1
+ 389.444335938 657.390625 l 1,16,17
+ 384.840820312 662.485351562 384.840820312 662.485351562 379.701171875 667.150390625 c 0,18,19
+ 362.840820312 682.455078125 362.840820312 682.455078125 340.749023438 691.83203125 c 0,20,21
+ 294.723632812 711.369140625 294.723632812 711.369140625 266.55859375 692.36328125 c 128,-1,22
+ 238.393554688 673.357421875 238.393554688 673.357421875 227.028320312 618.431640625 c 2,23,-1
+ 225.104247104 611.158301158 l 1,0,1
+335 -4 m 0,24,25
+ 267 -4 267 -4 218.5 20.5 c 128,-1,26
+ 170 45 170 45 145 91.5 c 128,-1,27
+ 120 138 120 138 119 204 c 0,28,29
+ 119 274 119 274 139 333 c 128,-1,30
+ 159 392 159 392 197 435 c 128,-1,31
+ 235 478 235 478 287.5 502 c 128,-1,32
+ 340 526 340 526 405 526 c 0,33,34
+ 473 526 473 526 523.5 500 c 128,-1,35
+ 574 474 574 474 602.5 425 c 128,-1,36
+ 631 376 631 376 631 309 c 0,37,38
+ 631 241 631 241 609 184 c 128,-1,39
+ 587 127 587 127 547.5 85 c 128,-1,40
+ 508 43 508 43 454 19.5 c 128,-1,41
+ 400 -4 400 -4 335 -4 c 0,24,25
+336 41 m 0,42,43
+ 407 41 407 41 462 75 c 128,-1,44
+ 517 109 517 109 548.5 169.5 c 128,-1,45
+ 580 230 580 230 580 306 c 0,46,47
+ 580 390 580 390 531.5 435.5 c 128,-1,48
+ 483 481 483 481 395 481 c 0,49,50
+ 325 481 325 481 269.5 447 c 128,-1,51
+ 214 413 214 413 182 353 c 128,-1,52
+ 150 293 150 293 150 216 c 0,53,54
+ 150 133 150 133 199 87 c 128,-1,55
+ 248 41 248 41 336 41 c 0,42,43
 EndSplineSet
-Validated: 5
 Kerns2: 702 -9 "'kern' Horizontal Kerning lookup 0 per glyph data 1" 700 -12 "'kern' Horizontal Kerning lookup 0 per glyph data 1"
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 46 subtable" b.sc
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" b.sc
@@ -20089,7 +20098,6 @@ LayerCount: 2
 Fore
 Refer: 617 98 N 1 0 0 1 0 0 3
 Refer: 2485 775 N 1 0 0 1 75 0 2
-Validated: 5
 Kerns2: 702 -9 "'kern' Horizontal Kerning lookup 0 per glyph data 1" 700 -12 "'kern' Horizontal Kerning lookup 0 per glyph data 1"
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 46 subtable" uni1E03.sc
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" uni1E03.sc
@@ -20106,7 +20114,6 @@ LayerCount: 2
 Fore
 Refer: 617 98 N 1 0 0 1 0 0 3
 Refer: 2485 775 N 1 0 0 1 -114 -808 2
-Validated: 5
 Kerns2: 702 -9 "'kern' Horizontal Kerning lookup 0 per glyph data 1" 700 -12 "'kern' Horizontal Kerning lookup 0 per glyph data 1"
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 46 subtable" uni1E05.sc
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" uni1E05.sc
@@ -20293,7 +20300,6 @@ LayerCount: 2
 Fore
 Refer: 617 98 N 1 0 0 1 0 0 3
 Refer: 2509 772 N 1 0 0 1 -60 -801 2
-Validated: 5
 Kerns2: 702 -9 "'kern' Horizontal Kerning lookup 0 per glyph data 1" 700 -12 "'kern' Horizontal Kerning lookup 0 per glyph data 1"
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 46 subtable" uni1E07.sc
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" uni1E07.sc
@@ -24049,7 +24055,7 @@ StartChar: l
 Encoding: 108 108 757
 Width: 301
 GlyphClass: 2
-Flags: WO
+Flags: W
 AnchorPoint: "Anchor-4" 347 742 basechar 0
 AnchorPoint: "Anchor-3" 223 724 basechar 0
 AnchorPoint: "Anchor-1" 149 343 basechar 0
@@ -26384,16 +26390,25 @@ SplineSet
  95 292 95 292 95 216 c 0,28,29
  95 133 95 133 143.5 87 c 128,-1,30
  192 41 192 41 280 41 c 0,17,18
-429 -194 m 1,31,-1
- 501 164 l 1,32,-1
- 530 254 l 1,33,-1
- 538 345 l 1,34,-1
- 574 522 l 1,35,-1
- 622 522 l 1,36,-1
- 479 -194 l 1,37,-1
- 429 -194 l 1,31,-1
+622 522 m 1,31,32
+ 509.075195313 -43.4150390625 509.075195313 -43.4150390625 509 -46 c 0,33,34
+ 498 -101 498 -101 516.5 -129.5 c 128,-1,35
+ 535 -158 535 -158 585 -158 c 0,36,37
+ 609 -158 609 -158 630.5 -150.5 c 0,38,39
+ 637.053710938 -148.213867188 637.053710938 -148.213867188 643.282226562 -145.323242188 c 1,40,41
+ 643.282226562 -145.323242188 643.282226562 -145.323242188 634.16015625 -192.252929688 c 2,42,43
+ 632.8359375 -192.637695312 632.8359375 -192.637695312 631.5 -193 c 0,44,45
+ 602 -201 602 -201 573 -201 c 0,46,47
+ 530 -201 530 -201 500.5 -183 c 128,-1,48
+ 471 -165 471 -165 460 -131 c 128,-1,49
+ 449 -97 449 -97 458 -50 c 2,50,51
+ 458.528320312 -47.17578125 458.528320312 -47.17578125 458.528320312 -47.17578125 c 129,-1,52
+ 458.528320312 -47.17578125 458.528320312 -47.17578125 501 164 c 1,53,-1
+ 530 254 l 1,54,-1
+ 538 345 l 1,55,-1
+ 574 522 l 1,56,-1
+ 622 522 l 1,31,32
 EndSplineSet
-Validated: 37
 Kerns2: 2355 20 "'kern' Horizontal Kerning lookup 0 per glyph data 1" 2354 20 "'kern' Horizontal Kerning lookup 0 per glyph data 1" 2353 20 "'kern' Horizontal Kerning lookup 0 per glyph data 1" 2352 20 "'kern' Horizontal Kerning lookup 0 per glyph data 1" 2051 20 "'kern' Horizontal Kerning lookup 0 per glyph data 1" 1982 20 "'kern' Horizontal Kerning lookup 0 per glyph data 1" 1367 20 "'kern' Horizontal Kerning lookup 0 per glyph data 1" 789 20 "'kern' Horizontal Kerning lookup 0 per glyph data 1" 745 20 "'kern' Horizontal Kerning lookup 0 per glyph data 1" 744 20 "'kern' Horizontal Kerning lookup 0 per glyph data 1" 743 20 "'kern' Horizontal Kerning lookup 0 per glyph data 1" 742 20 "'kern' Horizontal Kerning lookup 0 per glyph data 1" 741 20 "'kern' Horizontal Kerning lookup 0 per glyph data 1" 680 20 "'kern' Horizontal Kerning lookup 0 per glyph data 1" 446 20 "'kern' Horizontal Kerning lookup 0 per glyph data 1" 198 20 "'kern' Horizontal Kerning lookup 0 per glyph data 1" 109 20 "'kern' Horizontal Kerning lookup 0 per glyph data 1"
 Substitution2: "'smcp' Lowercase to Small Capitals lookup 46 subtable" q.sc
 Substitution2: "'aalt' Access All Alternates lookup 0 subtable" q.sc
@@ -54599,7 +54614,6 @@ AnchorPoint: "Anchor-0" 260 0 basechar 0
 LayerCount: 2
 Fore
 Refer: 843 113 N 1 0 0 1 10 0 2
-Validated: 5
 Kerns2: 789 3 "'kern' Horizontal Kerning lookup 0 per glyph data 1"
 EndChar
 
